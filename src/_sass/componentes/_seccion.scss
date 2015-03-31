@@ -17,3 +17,7 @@
 .seccion__cabecera {
 	@include margin-bottom-sm;
 }
+
+.seccion__cabecera--centrada {
+	text-align: center;
+}
