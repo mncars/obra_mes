@@ -1,0 +1,902 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fl",
+				"float"
+			],
+			[
+				"d-i",
+				"d-ib+	display: inline-block;\n*display: inline;\n*zoom: 1;"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"bgp",
+				"bgpx	background-position-x"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pb",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/_sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 3326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/_sass/global/_fondos.scss",
+			"settings":
+			{
+				"buffer_size": 1459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/_sass/index.md",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 30826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/_sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss",
+			"settings":
+			{
+				"buffer_size": 6146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/_sass/global/_type.scss",
+			"settings":
+			{
+				"buffer_size": 1543,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 13167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/_sass/componentes/_seccion.scss",
+			"settings":
+			{
+				"buffer_size": 306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/_sass/mixins/_spaces.scss",
+			"settings":
+			{
+				"buffer_size": 7464,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lim	",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aritz/Web/museo-obra-mes",
+		"/Users/aritz/Web/museo-obra-mes/bower_components",
+		"/Users/aritz/Web/museo-obra-mes/bower_components/bootstrap-sass-official",
+		"/Users/aritz/Web/museo-obra-mes/bower_components/bootstrap-sass-official/assets",
+		"/Users/aritz/Web/museo-obra-mes/bower_components/bootstrap-sass-official/assets/stylesheets",
+		"/Users/aritz/Web/museo-obra-mes/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap",
+		"/Users/aritz/Web/museo-obra-mes/src",
+		"/Users/aritz/Web/museo-obra-mes/src/_includes",
+		"/Users/aritz/Web/museo-obra-mes/src/_layouts",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/componentes",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/global",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/mixins"
+	],
+	"file_history":
+	[
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/global/_fondos.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/mixins/_font-size.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/_variables.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/mixins/_spaces.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/global/_scaffolding.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/global/_type.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/componentes/_seccion.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/index.html",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/style.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_sass/_mixins.scss",
+		"/Users/aritz/Web/museo-obra-mes/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/aritz/Web/museo-obra-mes/src/_layouts/default.html",
+		"/Users/aritz/Web/museo-obra-mes/src/_includes/footer.html",
+		"/Users/aritz/Web/museo-obra-mes/src/_includes/header.html",
+		"/Users/aritz/Library/Application Support/Sublime Text 3/Packages/User/placehold.sublime-snippet",
+		"/Users/aritz/Library/Application Support/Sublime Text 3/Packages/User/placehold",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/twitter_bootstrap.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/mixins/sprites.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/templates/includes/footer.tpl.php",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/pie.less",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/actividades/accesibilidad-color.yml",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/actividades/ninos-jovenes-color.yml",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/publicaciones/descargables.yml",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/radios/descargables.yml",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/publicaciones/recursos.yml",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/templates/node/portada-educacion/node--portada_educacion--full.tpl.php",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/miniaturas.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/mixins/miniaturas.less",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/actividades/escolares-docentes-color.yml",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/bootstrap.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/base.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/utilities.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/templates/node/portada-entradas/node--portada_entradas--full.tpl.php",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/seccion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-entrada.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/templates/node/entrada/node--entrada--bloque.tpl.php",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/templates/node/entrada/node--entrada--full.tpl.php",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/variables.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/botones.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/ver-mas.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/volver-arriba.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/wells.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/thumbnails-visita-guiada.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/thumbnails-video.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/bootstrap/less/utilities.less",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_includes/snippets/radio.miniatura.miniatura--media.html",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/v3.educacion.html",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/imagenes.less",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/radios/multimedia.yml",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_includes/snippets/video.miniatura.miniatura--caja.html",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/videos/multimedia.yml",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_includes/snippets/actividad.miniatura.miniatura--caja.html",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-educacion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/bootstrap/less/forms.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/fondos.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/mixins.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/etiquetas.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-pedagogias.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/media.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/alertas.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/enlaces.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/banners.less",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_includes/snippets/publicacion.miniatura.miniatura--media.html",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_data/educacion/servicios.yml",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/plantillas/v3.educacion.html",
+		"/Users/aritz/Library/Application Support/Sublime Text 3/Packages/User/placehold-it",
+		"/Users/aritz/Library/Application Support/Sublime Text 3/Packages/User/img-placehold-it",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_includes/footer.html",
+		"/Users/aritz/Web/museo-reina-sofia/plantillas-src/_includes/head.html",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/plantillas/v1.home.html",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/mixins/font-size.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/titulo-pagina.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/formularios.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/bootstrap/less/buttons.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/tipografia.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/bootstrap/less/type.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/global/espacios.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/bootstrap/less/mixins.less",
+		"/Users/aritz/Web/museo-compra-entradas/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_border-radius.scss",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/componentes/caja-precio.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/default/local_conf.php",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/aviso-cookies.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/bloque-restauracion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/carta.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/centro-estudios.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/estilos-imprimir.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-actividad.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-audio.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-coleccion-viaja.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-coleccion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-contenido.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-exposicion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-lateral.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-nota-prensa.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-obra.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-publicacion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-sala.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-video.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-visita-guiada.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/ficha-visita-libre.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/gigapixel.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-avisos.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-buscador.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-coleccion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-exposiciones.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-hoy-museo.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-listado-visitas-libres.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/home-multimedia.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/hoy-museo.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/imprimir-visita.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/minisite.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/obra-del-mes.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/pagina-404.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/pagina-500.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/pagina-estatica.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/pagina-preparar-visita.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-actividades.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-autores.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-biblioteca-centro-documentacion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-coleccion.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-estatica.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-exposiciones.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-multimedia.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-museo.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-prensa.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-publicaciones.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-restauracion-procesos.less",
+		"/Users/aritz/Web/museo-reina-sofia/docroot/sites/all/themes/mrs_twitter_bootstrap/less/modulos/portada-restauracion-proyectos.less"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/aritz/Web/museo-reina-sofia",
+			"/Users/aritz/kalabox/www/bestaker"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"claro",
+			"#1ABB9C",
+			"claro",
+			"#2F4052",
+			"#F2F5F7",
+			"tint-bg",
+			"dark-bg",
+			"light-bg",
+			"img-bg-soft",
+			"img-bg-softer",
+			"img-bg",
+			"clara",
+			"seccion--isla--lg",
+			"-lg {",
+			"-lg",
+			"seccion--bloque",
+			"seccion--bloque ",
+			"class=\"seccion",
+			"$color",
+			"color",
+			" * ",
+			"fondo-o",
+			"#fff",
+			".fondo",
+			"$space",
+			"$",
+			":",
+			"$",
+			"<section>",
+			"$font-museo-bold",
+			";",
+			" 			",
+			"-xs",
+			"size",
+			"1",
+			"@mixin",
+			"h1",
+			"large",
+			"base",
+			":       	$font-size-base;",
+			"-lg-",
+			"-md-",
+			"<img ",
+			"  |  ",
+			"                                            ",
+			"                                                    ",
+			"                                                                ",
+			"                                                                        ",
+			"                                            ",
+			"patrocinios-",
+			"patrocinios-museo",
+			".spriteReplace ",
+			".patrocinios-museo__logo--",
+			" patrocinios-museo__logo",
+			"logo--",
+			"--",
+			"patrocinios-museo__logo ",
+			"patrocinios-museo__logo",
+			"copy",
+			"	  ",
+			".miniatura__acciones--fijadas-abajo",
+			"<img src=\"http://placehold.it/370x65\">",
+			"<a class=\"media__media-izquierda\" href=\"\">",
+			"<article class=\"miniatura miniatura--media media\">",
+			"<div class=\"span6\">",
+			"<h3 class=\"miniatura__subtitulo\">",
+			"consequat.",
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"miniatura__acciones--sobre-imagen",
+			"@orange",
+			"fondo",
+			"-claro",
+			"@granate",
+			"miniatura__etiqueta-imagen",
+			"                                    ",
+			"http://museo.local:8082/",
+			":url",
+			"                 ",
+			"btn-bl",
+			"form .btn",
+			"adius",
+			"borderR",
+			";\n",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"#fecha_de_visita{",
+			"    ",
+			"   ",
+			"  ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"ficha-entrada--cuerpo",
+			";}",
+			"ficha-entrada--cuerpo",
+			"@tituloPaginaSubtitulo",
+			"TitulosSubtitulo",
+			"tituloF",
+			"Subtitulo",
+			"subtitulo",
+			",",
+			"		",
+			"titulo-p",
+			"-",
+			"miniaturaAntetitulo",
+			"field-name-field-portada-entradas-pie",
+			"  {",
+			"{",
+			"  ",
+			"http://museo.local:8082",
+			"museo.local:8082",
+			"http://museo.local:8082",
+			"md",
+			".titular-proyectos",
+			"lg",
+			"md",
+			"lg",
+			"md",
+			"id=\"extranet",
+			".botones-proyecto",
+			"menus-extranet-center"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/_sass/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								658,
+								658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1586.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/_sass/global/_fondos.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 365.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/_sass/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								644
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/_sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/_sass/global/_type.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5408,
+								5408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2548.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/_sass/componentes/_seccion.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/_sass/mixins/_spaces.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 83.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "museo-obra-mes.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

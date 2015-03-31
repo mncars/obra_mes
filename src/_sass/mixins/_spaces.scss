@@ -1,0 +1,496 @@
+/*------------------------------------*\
+    #MIXINS-SPACES
+\*------------------------------------*/
+
+/**
+ * Variables:
+ *
+ * $space-unit-xs
+ * $space-unit-sm
+ * $space-unit-md
+ * $space-unit-lg
+ * $space-unit-xl
+ * $space-unit-xxs
+ * $space-unit-xxxs
+ *
+ */
+
+@mixin margin-xxxs {
+	margin: $space-unit-xxxs;
+}
+
+@mixin margin-xxs {
+	margin: $space-unit-xxs;
+}
+
+@mixin margin-xs {
+	margin: $space-unit-xs;
+}
+
+@mixin margin-sm {
+	margin: $space-unit-sm;
+}
+
+@mixin margin-md {
+	margin: $space-unit-md;
+}
+
+@mixin margin-lg {
+	margin: $space-unit-lg;
+}
+
+@mixin margin-xl {
+	margin: $space-unit-xl;
+}
+
+@mixin no-margin {
+	margin: 0;
+}
+
+@mixin margin-top-xxxs {
+	margin-top: $space-unit-xxxs;
+}
+
+@mixin margin-top-xxs {
+	margin-top: $space-unit-xxs;
+}
+
+@mixin margin-top-xs {
+	margin-top: $space-unit-xs;
+}
+
+@mixin margin-top-sm {
+	margin-top: $space-unit-sm;
+}
+
+@mixin margin-top-md {
+	margin-top: $space-unit-md;
+}
+
+@mixin margin-top-lg {
+	margin-top: $space-unit-lg;
+}
+
+@mixin margin-top-xl {
+	margin-top: $space-unit-xl;
+}
+
+@mixin no-margin-top {
+	margin-top: 0;
+}
+
+@mixin margin-right-xxxs {
+	margin-right: $space-unit-xxxs;
+}
+
+@mixin margin-right-xxs {
+	margin-right: $space-unit-xxs;
+}
+
+@mixin margin-right-xs {
+	margin-right: $space-unit-xs;
+}
+
+@mixin margin-right-sm {
+	margin-right: $space-unit-sm;
+}
+
+@mixin margin-right-md {
+	margin-right: $space-unit-md;
+}
+
+@mixin margin-right-lg {
+	margin-right: $space-unit-lg;
+}
+
+@mixin margin-right-xl {
+	margin-right: $space-unit-xl;
+}
+
+@mixin no-margin-right {
+	margin-right: 0;
+}
+
+@mixin margin-bottom-xxxs {
+	margin-bottom: $space-unit-xxxs;
+}
+
+@mixin margin-bottom-xxs {
+	margin-bottom: $space-unit-xxs;
+}
+
+@mixin margin-bottom-xs {
+	margin-bottom: $space-unit-xs;
+}
+
+@mixin margin-bottom-sm {
+	margin-bottom: $space-unit-sm;
+}
+
+@mixin margin-bottom-md {
+	margin-bottom: $space-unit-md;
+}
+
+@mixin margin-bottom-lg {
+	margin-bottom: $space-unit-lg;
+}
+
+@mixin margin-bottom-xl {
+	margin-bottom: $space-unit-xl;
+}
+
+@mixin no-margin-bottom {
+	margin-bottom: 0;
+}
+
+@mixin margin-left-xxxs {
+	margin-left: $space-unit-xxxs;
+}
+
+@mixin margin-left-xxs {
+	margin-left: $space-unit-xxs;
+}
+
+@mixin margin-left-xs {
+	margin-left: $space-unit-xs;
+}
+
+@mixin margin-left-sm {
+	margin-left: $space-unit-sm;
+}
+
+@mixin margin-left-md {
+	margin-left: $space-unit-md;
+}
+
+@mixin margin-left-lg {
+	margin-left: $space-unit-lg;
+}
+
+@mixin margin-left-xl {
+	margin-left: $space-unit-xl;
+}
+
+@mixin no-margin-left {
+	margin-left: 0;
+}
+
+@mixin margin-vertical-xxxs {
+	@include margin-top-xxxs;
+	@include margin-bottom-xxxs;
+}
+
+@mixin margin-vertical-xxs {
+	@include margin-top-xxs;
+	@include margin-bottom-xxs;
+}
+
+@mixin margin-vertical-xs {
+	@include margin-top-xs;
+	@include margin-bottom-xs;
+}
+
+@mixin margin-vertical-sm {
+	@include margin-top-sm;
+	@include margin-bottom-sm;
+}
+
+@mixin margin-vertical-md {
+	@include margin-top-md;
+	@include margin-bottom-md;
+}
+
+@mixin margin-vertical-lg {
+	@include margin-top-lg;
+	@include margin-bottom-lg;
+}
+
+@mixin margin-vertical-xl {
+	@include margin-top-xl;
+	@include margin-bottom-xl;
+}
+
+@mixin no-margin-vertical {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@mixin margin-horizontal-xxxs {
+	@include margin-left-xxxs;
+	@include margin-right-xxxs;
+}
+
+@mixin margin-horizontal-xxs {
+	@include margin-left-xxs;
+	@include margin-right-xxs;
+}
+
+@mixin margin-horizontal-xs {
+	@include margin-left-xs;
+	@include margin-right-xs;
+}
+
+@mixin margin-horizontal-sm {
+	@include margin-left-sm;
+	@include margin-right-sm;
+}
+
+@mixin margin-horizontal-md {
+	@include margin-left-md;
+	@include margin-right-md;
+}
+
+@mixin margin-horizontal-lg {
+	@include margin-left-lg;
+	@include margin-right-lg;
+}
+
+@mixin margin-horizontal-xl {
+	@include margin-left-xl;
+	@include margin-right-xl;
+}
+
+@mixin no-margin-horizontal {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@mixin padding-xxxs {
+	padding: $space-unit-xxxs;
+}
+
+@mixin padding-xxs {
+	padding: $space-unit-xxs;
+}
+
+@mixin padding-xs {
+	padding: $space-unit-xs;
+}
+
+@mixin padding-sm {
+	padding: $space-unit-sm;
+}
+
+@mixin padding-md {
+	padding: $space-unit-md;
+}
+
+@mixin padding-lg {
+	padding: $space-unit-lg;
+}
+
+@mixin padding-xl {
+	padding: $space-unit-xl;
+}
+
+@mixin no-padding {
+	padding: 0;
+}
+
+@mixin padding-top-xxxs {
+	padding-top: $space-unit-xxxs;
+}
+
+@mixin padding-top-xxs {
+	padding-top: $space-unit-xxs;
+}
+
+@mixin padding-top-xs {
+	padding-top: $space-unit-xs;
+}
+
+@mixin padding-top-sm {
+	padding-top: $space-unit-sm;
+}
+
+@mixin padding-top-md {
+	padding-top: $space-unit-md;
+}
+
+@mixin padding-top-lg {
+	padding-top: $space-unit-lg;
+}
+
+@mixin padding-top-xl {
+	padding-top: $space-unit-xl;
+}
+
+@mixin no-padding-top {
+	padding-top: 0;
+}
+
+@mixin padding-right-xxxs {
+	padding-right: $space-unit-xxxs;
+}
+
+@mixin padding-right-xxs {
+	padding-right: $space-unit-xxs;
+}
+
+@mixin padding-right-xs {
+	padding-right: $space-unit-xs;
+}
+
+@mixin padding-right-sm {
+	padding-right: $space-unit-sm;
+}
+
+@mixin padding-right-md {
+	padding-right: $space-unit-md;
+}
+
+@mixin padding-right-lg {
+	padding-right: $space-unit-lg;
+}
+
+@mixin padding-right-xl {
+	padding-right: $space-unit-xl;
+}
+
+@mixin no-padding-right {
+	padding-right: 0;
+}
+
+@mixin padding-bottom-xxxs {
+	padding-bottom: $space-unit-xxxs;
+}
+
+@mixin padding-bottom-xxs {
+	padding-bottom: $space-unit-xxs;
+}
+
+@mixin padding-bottom-xs {
+	padding-bottom: $space-unit-xs;
+}
+
+@mixin padding-bottom-sm {
+	padding-bottom: $space-unit-sm;
+}
+
+@mixin padding-bottom-md {
+	padding-bottom: $space-unit-md;
+}
+
+@mixin padding-bottom-lg {
+	padding-bottom: $space-unit-lg;
+}
+
+@mixin padding-bottom-xl {
+	padding-bottom: $space-unit-xl;
+}
+
+@mixin no-padding-bottom {
+	padding-bottom: 0;
+}
+
+@mixin padding-left-xxxs {
+	padding-left: $space-unit-xxxs;
+}
+
+@mixin padding-left-xxs {
+	padding-left: $space-unit-xxs;
+}
+
+@mixin padding-left-xs {
+	padding-left: $space-unit-xs;
+}
+
+@mixin padding-left-sm {
+	padding-left: $space-unit-sm;
+}
+
+@mixin padding-left-md {
+	padding-left: $space-unit-md;
+}
+
+@mixin padding-left-lg {
+	padding-left: $space-unit-lg;
+}
+
+@mixin padding-left-xl {
+	padding-left: $space-unit-xl;
+}
+
+@mixin no-padding-left {
+	padding-left: 0;
+}
+
+@mixin padding-vertical-xxxs {
+	@include padding-top-xxxs;
+	@include padding-bottom-xxxs;
+}
+
+@mixin padding-vertical-xxs {
+	@include padding-top-xxs;
+	@include padding-bottom-xxs;
+}
+
+@mixin padding-vertical-xs {
+	@include padding-top-xs;
+	@include padding-bottom-xs;
+}
+
+@mixin padding-vertical-sm {
+	@include padding-top-sm;
+	@include padding-bottom-sm;
+}
+
+@mixin padding-vertical-md {
+	@include padding-top-md;
+	@include padding-bottom-md;
+}
+
+@mixin padding-vertical-lg {
+	@include padding-top-lg;
+	@include padding-bottom-lg;
+}
+
+@mixin padding-vertical-xl {
+	@include padding-top-xl;
+	@include padding-bottom-xl;
+}
+
+@mixin no-padding-vertical {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+@mixin padding-horizontal-xxxs {
+	@include padding-left-xxxs;
+	@include padding-right-xxxs;
+}
+
+@mixin padding-horizontal-xxs {
+	@include padding-left-xxs;
+	@include padding-right-xxs;
+}
+
+@mixin padding-horizontal-xs {
+	@include padding-left-xs;
+	@include padding-right-xs;
+}
+
+@mixin padding-horizontal-sm {
+	@include padding-left-sm;
+	@include padding-right-sm;
+}
+
+@mixin padding-horizontal-md {
+	@include padding-left-md;
+	@include padding-right-md;
+}
+
+@mixin padding-horizontal-lg {
+	@include padding-left-lg;
+	@include padding-right-lg;
+}
+
+@mixin padding-horizontal-xl {
+	@include padding-left-xl;
+	@include padding-right-xl;
+}
+
+@mixin no-padding-horizontal {
+	padding-left: 0;
+	padding-right: 0;
+}

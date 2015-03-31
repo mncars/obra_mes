@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= title %> - Davalor Style Guide</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Compiled site styles -->
+    <link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
+
+    <!-- Styles for documentation only -->
+    <link type="text/css" rel="stylesheet" media="all" href="doc.css">
+    <link type="text/css" rel="stylesheet" media="all" href="github.css">
+    
+    <script src="/vendor/jquery/dist/jquery.js"></script>
+    <script src="/vendor/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+
+    <style>
+   
+      .main-content > *:first-child {
+        margin-top: 20px;
+      }
+
+      .main-content > h2,
+      .main-content > h1 {
+        margin-top: 50px;
+      }
+      .main-content > h1 {
+        font-size: 45px;
+      }
+      .main-content > h2 {
+        font-size: 30px;
+      }
+      .main-content > h1 + h2 {
+        margin-top: 0;
+      }
+      .affix {
+        top: 10px;
+        width: 16%;
+      }
+      .navbar-default .navbar-brand, 
+      .navbar-default .navbar-brand:hover {
+        height: 50px;
+        padding-top: 15px;
+        background-color: #00a0b4;
+      }
+      a.navbar-brand{ color:#fff!important;}
+      .submenu-container .nav > li > a {
+        color: #aaa;
+        font-weight: normal;
+        font-size: 13px;
+        text-decoration: none;
+      }
+      .navbar .nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-right: 1px solid #ddd;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+      }
+
+      .navbar .nav > li > a:hover {
+        background-color: #b4d232;
+        color: white;
+      }
+
+      @media(max-width: 991px) {
+        .affix {
+          display: none;
+        }
+      }
+      .nav > li > a {
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+      }
+      table {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+
+      @media(max-width: 400px) {
+        .nav > li > a {
+          padding: 10px 7px;
+          font-size: 0.95em;
+        }
+      }
+      pre {
+        font-size: 13px;
+      }
+      .bloque {
+        padding: 5px;
+        background-color: #ddd;
+      }
+      .bloque.alternativo {
+        background-color: #ccc;
+      }
+    </style>
+    <script>
+      $(function() {
+        // select current page
+        $(".navbar-nav li a").each(function() {
+          var navItemUrl = $(this).attr("href");
+          if (document.URL.indexOf(navItemUrl) > -1) {
+            $(this).parent().addClass("active");
+          }
+        });
+      })
+    </script>
+  </head>
+  <body id="top" data-spy="scroll" data-target=".submenu-container" data-offset="10">
+
+  <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Inicio
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <% @categories.each do |category, file_name| %>
+            <li>
+              <a href="<%= file_name %>"><%= category %></a>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 main-content">
+    
+      
+
+
+

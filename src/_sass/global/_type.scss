@@ -1,0 +1,114 @@
+/*------------------------------------*\
+    #TYPE
+\*------------------------------------*/
+
+/**
+ * Variables:
+ *
+ * $font-family-h1
+ * $font-family-h2
+ * $font-family-h3
+ * $font-family-h4
+ * $font-family-h5
+ * $font-family-h6
+ *
+ * $font-family-negrita
+ * $font-weight-negrita
+ * $color-negrita
+ *
+ */
+
+/**
+ * Añado  varias clases para dar formato a textos directamente.
+ */
+
+.fuente-grande {
+	@include font-size-large;
+}
+
+.fuente-base {
+	@include font-size-base;
+}
+
+.fuente-pequena {
+	@include font-size-small;
+}
+
+strong,
+.fuente-negrita {
+	font-family: $font-family-negrita;
+	font-weight: $font-weight-negrita;
+	color: $color-negrita;
+}
+
+/**
+ * Sobreescribo varios estilos que Bootstrap añade a los Títulos de sección, y 
+ * los extiendo para controlar su tamaño de fuente y su familia tipográfica.
+ */
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	@include no-margin-top;
+	@include margin-bottom-xs;
+}
+
+h1,
+.h1 {
+	@include font-size-h1;
+	font-family: $font-family-h1;
+}
+
+h2,
+.h2 {
+	@include font-size-h2;
+	font-family: $font-family-h2;
+}
+
+h3,
+.h3 {
+	@include font-size-h3;
+	font-family: $font-family-h3;
+}
+
+h4,
+.h4 {
+	@include font-size-h4;
+	font-family: $font-family-h4;
+}
+
+h5,
+.h5 {
+	@include font-size-h5;
+	font-family: $font-family-h5;
+}
+
+h6,
+.h6 { 
+	@include font-size-h6;
+	font-family: $font-family-h6;
+}
+
+/**
+ * Añadimos algo de espacio en blanco extra para separar un elemento de un 
+ * título de sección.
+ */
+
+p,
+ul,
+ol,
+dl,
+table,
+blockquote {
+	+ h1,
+	+ h2,
+	+ h3,
+	+ h4,
+	+ h5,
+	+ h6 {
+		@include margin-top-xs;
+	}
+}

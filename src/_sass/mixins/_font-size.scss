@@ -1,0 +1,142 @@
+/*------------------------------------*\
+    #MIXINS-FONT-SIZE
+\*------------------------------------*/
+
+/**
+ * Variables:
+ *
+ * $font-size-base-xs
+ * $font-size-base-sm
+ * $font-size-base-md
+ * $font-size-base-lg
+ *
+ * $font-size-large-xs
+ * $font-size-large-sm
+ * $font-size-large-md
+ * $font-size-large-lg
+ *
+ * $font-size-small-xs
+ * $font-size-small-sm
+ * $font-size-small-md
+ * $font-size-small-lg
+ *
+ * $font-size-h1-xs
+ * $font-size-h1-sm
+ * $font-size-h1-md
+ * $font-size-h1-lg
+ *
+ * $font-size-h2-xs
+ * $font-size-h2-sm
+ * $font-size-h2-md
+ * $font-size-h2-lg
+ *
+ * $font-size-h3-xs
+ * $font-size-h3-sm
+ * $font-size-h3-md
+ * $font-size-h3-lg
+ *
+ * $font-size-h4-xs
+ * $font-size-h4-sm
+ * $font-size-h4-md
+ * $font-size-h4-lg
+ *
+ * $font-size-h5-xs
+ * $font-size-h5-sm
+ * $font-size-h5-md
+ * $font-size-h5-lg
+ *
+ * $font-size-h6-xs
+ * $font-size-h6-sm
+ * $font-size-h6-md
+ * $font-size-h6-lg
+ *
+ */
+
+@mixin font-size-helper (
+    $font-size-xs, 
+    $font-size-sm, 
+    $font-size-md, 
+    $font-size-lg){
+    font-size: $font-size-xs;
+    @media (min-width: $screen-sm-min) {
+        font-size: $font-size-sm;
+    }
+    @media (min-width: $screen-md-min) {
+        font-size: $font-size-md;
+    }
+    @media (min-width: $screen-lg-min) {
+        font-size: $font-size-lg;
+    }
+}
+
+@mixin font-size-large {
+    @include font-size-helper (
+        $font-size-large-xs, 
+        $font-size-large-sm, 
+        $font-size-large-md, 
+        $font-size-large-lg);   
+}
+
+@mixin font-size-base {
+    @include font-size-helper (
+        $font-size-base-xs, 
+        $font-size-base-sm, 
+        $font-size-base-md, 
+        $font-size-base-lg);    
+}
+
+@mixin font-size-small {
+    @include font-size-helper (
+        $font-size-small-xs, 
+        $font-size-small-sm, 
+        $font-size-small-md, 
+        $font-size-small-lg);   
+}
+
+@mixin font-size-h1 {
+    @include font-size-helper (
+        $font-size-h1-xs, 
+        $font-size-h1-sm, 
+        $font-size-h1-md, 
+        $font-size-h1-lg);  
+}
+
+@mixin font-size-h2 {
+    @include font-size-helper (
+        $font-size-h2-xs, 
+        $font-size-h2-sm, 
+        $font-size-h2-md, 
+        $font-size-h2-lg);  
+}
+
+@mixin font-size-h3 {
+    @include font-size-helper (
+        $font-size-h3-xs, 
+        $font-size-h3-sm, 
+        $font-size-h3-md, 
+        $font-size-h3-lg);  
+}
+
+@mixin font-size-h4 {
+    @include font-size-helper (
+        $font-size-h4-xs, 
+        $font-size-h4-sm, 
+        $font-size-h4-md, 
+        $font-size-h4-lg);  
+}
+
+@mixin font-size-h5 {
+    @include font-size-helper (
+        $font-size-h5-xs, 
+        $font-size-h5-sm, 
+        $font-size-h5-md, 
+        $font-size-h5-lg);  
+}
+
+@mixin font-size-h6 {
+    @include font-size-helper (
+        $font-size-h6-xs, 
+        $font-size-h6-sm, 
+        $font-size-h6-md, 
+        $font-size-h6-lg);  
+}

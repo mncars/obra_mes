@@ -1,0 +1,100 @@
+/*------------------------------------*\
+    #FONDOS
+\*------------------------------------*/
+
+/**
+ * Variables:
+ *
+ * $fondo-oscuro
+ * $fondo-claro
+ * $fondo-tintado
+ *
+ * $color-claro
+ * $color-muy-claro
+ *
+ */
+
+.fondo--oscuro {
+	color: $color-claro;
+	background-color: $fondo-oscuro;
+}
+
+.fondo--claro {
+	background-color: $fondo-claro;
+}
+
+.fondo--tintado {
+	color: $color-muy-claro;
+	background-color: $fondo-tintado;
+}
+
+.fondo--oscuro,
+.fondo--tintado {
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6,
+	a,
+	strong,
+	.fuente-negrita {
+		color: $color-muy-claro;
+	}
+}
+
+.fondo--imagen {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+	}
+}
+
+.fondo--claro {
+	&.fondo--imagen--suave {
+		&:before {
+			background-color: $fondo-claro;
+			opacity: .66;
+		}
+	}
+	&.fondo--imagen--muy-suave {
+		&:before {
+			background-color: $fondo-claro;
+			opacity: .95;
+		}
+	}
+}
+
+.fondo--oscuro {
+	&.fondo--imagen--suave {
+		&:before {
+			background-color: $fondo-oscuro;
+			opacity: .57;
+		}
+	}
+	&.fondo--imagen--muy-suave {
+		&:before {
+			background-color: $fondo-oscuro;
+			opacity: .97;
+		}
+	}
+}
+
+.fondo--tintado {
+	&.fondo--imagen--suave {
+		&:before {
+			background-color: $fondo-tintado;
+			opacity: .84;
+		}
+	}
+	&.fondo--imagen--muy-suave {
+		&:before {
+			background-color: $fondo-tintado;
+			opacity: .96;
+		}
+	}
+}

@@ -1,0 +1,129 @@
+/*
+  Incluye:
+	- Fuentes propias
+    - Variables sobreescritas de bootstrap
+    - Variables propias 
+*/
+
+
+
+/*
+	Fuentes propias
+*/
+
+$font-museo-bold: 		  	'PFDinTextPro-Bold', Helvetica, Arial, sans-serif;
+$font-museo-bold-italic: 	'PFDinTextPro-BoldItalic', Helvetica, Arial, sans-serif;
+$font-museo-regular: 	  	'PFDinTextPro-Regular', Helvetica, Arial, sans-serif;
+$font-museo-thin: 		  	'PFDinTextPro-Thin', Helvetica, Arial, sans-serif;
+$font-museo-thin-italic: 	'PFDinTextPro-ThinItalic', Helvetica, Arial, sans-serif;
+
+
+
+/*
+	Variables sobreescritas de bootstrap
+*/
+
+$gray-dark: 				#333;
+$gray:                      #666;
+
+$brand-primary: 		    #1ABB9C;
+
+$text-color: 				$gray;
+
+$font-family-sans-serif: 	$font-museo-thin;
+
+$font-size-base: 			23px;
+$font-size-large:         	28px;
+$font-size-small:         	12px;
+
+$font-size-h1:            	72px;
+$font-size-h2:            	48px;
+$font-size-h3:            	44px;
+$font-size-h4:            	28px;
+$font-size-h5:            	24px;
+$font-size-h6:            	20px;
+
+$line-height-base: 			1.6;
+
+$headings-font-weight:    	normal;
+$headings-color:          	$gray-dark;
+
+
+/*
+	Variables propias
+*/
+
+$white-dark: 				#f3f3f3;
+
+$font-size-base-xs: 		18px;
+$font-size-base-sm: 		$font-size-base;
+$font-size-base-md: 		$font-size-base;
+$font-size-base-lg: 		$font-size-base;
+
+$font-size-large-xs: 		20px;
+$font-size-large-sm: 		$font-size-large;
+$font-size-large-md: 		$font-size-large;
+$font-size-large-lg: 		$font-size-large;
+
+$font-size-small-xs: 		$font-size-small;
+$font-size-small-sm: 		$font-size-small;
+$font-size-small-md: 		$font-size-small;
+$font-size-small-lg: 		$font-size-small;
+
+$font-size-h1-xs: 			$font-size-h1;
+$font-size-h1-sm: 			$font-size-h1;
+$font-size-h1-md: 			$font-size-h1;
+$font-size-h1-lg: 			$font-size-h1;
+
+$font-size-h2-xs: 			34px;
+$font-size-h2-sm: 			$font-size-h2;
+$font-size-h2-md: 			$font-size-h2;
+$font-size-h2-lg: 			$font-size-h2;
+
+$font-size-h3-xs: 			30px;
+$font-size-h3-sm: 			$font-size-h3;
+$font-size-h3-md: 			$font-size-h3;
+$font-size-h3-lg: 			$font-size-h3;
+
+$font-size-h4-xs: 			$font-size-h4;
+$font-size-h4-sm: 			$font-size-h4;
+$font-size-h4-md: 			$font-size-h4;
+$font-size-h4-lg: 			$font-size-h4;
+
+$font-size-h5-xs: 			$font-size-h5;
+$font-size-h5-sm: 			$font-size-h5;
+$font-size-h5-md: 			$font-size-h5;
+$font-size-h5-lg: 			$font-size-h5;
+
+$font-size-h6-xs: 			$font-size-h6;
+$font-size-h6-sm: 			$font-size-h6;
+$font-size-h6-md: 			$font-size-h6;
+$font-size-h6-lg: 			$font-size-h6;
+
+$font-family-h1: 			$font-museo-bold;
+$font-family-h2: 			$font-museo-bold;
+$font-family-h3: 			$font-museo-thin;
+$font-family-h4: 			$font-museo-bold;
+$font-family-h5: 			$font-museo-bold;
+$font-family-h6: 			$font-museo-bold;
+
+$font-family-negrita: 		$font-museo-bold;
+$font-weight-negrita: 		normal;
+
+$color-negrita: 			$headings-color;
+
+$space-unit-xs: 			15px;
+$space-unit-sm:  			($space-unit-xs * 2); // 30px;
+$space-unit-md:  			($space-unit-xs * 3); // 45px;
+$space-unit-lg:  			($space-unit-xs * 4); // 60px;
+$space-unit-xl:  			($space-unit-xs * 5); // 75px;
+
+$space-unit-xxs: 			($space-unit-xs / 1.5); // 10px;
+$space-unit-xxxs:  			($space-unit-xs / 3);   // 5px;
+
+$fondo-oscuro: 				$gray-dark;
+$fondo-claro: 				$white-dark;
+$fondo-tintado: 			$brand-primary;
+
+$color-claro: 				#979797;
+$color-muy-claro: 			#fff;

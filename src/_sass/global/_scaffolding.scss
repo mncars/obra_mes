@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    #SCAFFOLDING
+\*------------------------------------*/
+
+/**
+ * Sobreescribo las reglas de Bootstrap para controlar el tamaño de fuente del 
+ * elemento <body>.
+ */
+
+body {
+  @include font-size-base;
+}

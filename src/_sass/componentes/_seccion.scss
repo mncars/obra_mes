@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #SECCION
+\*------------------------------------*/
+
+.seccion--bloque {
+	@include margin-bottom-lg;
+}
+
+.seccion--isla--xl {
+	@include padding-vertical-xl;
+}
+
+.seccion--isla--sm {
+	@include padding-vertical-sm;
+}
+
+.seccion__cabecera {
+	@include margin-bottom-sm;
+}
