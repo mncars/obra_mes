@@ -1,0 +1,137 @@
+/* @license
+ * MyFonts Webfont Build ID 2419826, 2012-11-28T06:33:45-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: PF Din Text Pro Extra Black by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/extra-black/
+ * 
+ * Webfont: PF Din Text Pro Extra Black Italic by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/extra-black-italic/
+ * 
+ * Webfont: PF Din Text Pro Regular by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/regular/
+ * 
+ * Webfont: PF Din Text Pro Medium by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/medium/
+ * 
+ * Webfont: PF Din Text Pro Bold Italic by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/bold-italic/
+ * 
+ * Webfont: PF Din Text Pro Medium Italic by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/medium-italic/
+ * 
+ * Webfont: PF Din Text Pro Italic by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/italic/
+ * 
+ * Webfont: PF Din Text Pro Bold by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/bold/
+ * 
+ * Webfont: PF Din Text Pro Thin by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/thin/
+ * 
+ * Webfont: PF Din Text Pro Thin Italic by Parachute
+ * URL: http://www.myfonts.com/fonts/parachute/pf-din-text-pro/thin-italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2419826
+ * Webfonts copyright: Copyright (c) 2002, 2005 Parachute&#x00A8;, www.parachute.gr.  All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+@import url("//hello.myfonts.net/count/24ec72");
+
+/*@font-face {
+	font-family: 	'PFDinTextPro-ExtraBlack';
+	src: 			url('webfonts/24EC72_0_0.eot');
+	src: 			url('webfonts/24EC72_0_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_0_0.woff') format('woff'),
+					url('webfonts/24EC72_0_0.ttf') format('truetype'),
+					url('webfonts/24EC72_0_0.svg#wf') format('svg');
+}*/
+
+/*@font-face {
+	font-family: 	'PFDinTextPro-ExtraBlackItalic';
+	src: 			url('webfonts/24EC72_1_0.eot');
+					src: url('webfonts/24EC72_1_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_1_0.woff') format('woff'),
+					url('webfonts/24EC72_1_0.ttf') format('truetype'),
+					url('webfonts/24EC72_1_0.svg#wf') format('svg');
+}*/
+
+@font-face {
+	font-family: 	'PFDinTextPro-Bold';
+	src: 			url('webfonts/24EC72_7_0.eot');
+	src: 			url('webfonts/24EC72_7_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_7_0.woff') format('woff'),
+					url('webfonts/24EC72_7_0.ttf') format('truetype'),
+					url('webfonts/24EC72_7_0.svg#wf') format('svg');
+}
+
+@font-face {
+	font-family: 	'PFDinTextPro-BoldItalic';
+	src: 			url('webfonts/24EC72_4_0.eot');
+	src: 			url('webfonts/24EC72_4_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_4_0.woff') format('woff'),
+					url('webfonts/24EC72_4_0.ttf') format('truetype'),
+					url('webfonts/24EC72_4_0.svg#wf') format('svg');
+}
+
+/*@font-face {
+	font-family: 	'PFDinTextPro-Medium';
+	src: 			url('webfonts/24EC72_3_0.eot');
+	src: 			url('webfonts/24EC72_3_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_3_0.woff') format('woff'),
+					url('webfonts/24EC72_3_0.ttf') format('truetype'),
+					url('webfonts/24EC72_3_0.svg#wf') format('svg');
+}*/
+
+/*@font-face {
+	font-family: 	'PFDinTextPro-MediumItalic';
+	src: 			url('webfonts/24EC72_5_0.eot');
+	src: 			url('webfonts/24EC72_5_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_5_0.woff') format('woff'),
+					url('webfonts/24EC72_5_0.ttf') format('truetype'),
+					url('webfonts/24EC72_5_0.svg#wf') format('svg');
+}*/
+
+@font-face {
+	font-family: 	'PFDinTextPro-Regular';
+	src: 			url('webfonts/24EC72_2_0.eot');
+	src: 			url('webfonts/24EC72_2_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_2_0.woff') format('woff'),
+					url('webfonts/24EC72_2_0.ttf') format('truetype'),
+					url('webfonts/24EC72_2_0.svg#wf') format('svg');
+}
+
+/*@font-face {
+	font-family: 	'PFDinTextPro-Italic';
+	src: 			url('webfonts/24EC72_6_0.eot');
+	src: 			url('webfonts/24EC72_6_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_6_0.woff') format('woff'),
+					url('webfonts/24EC72_6_0.ttf') format('truetype'),
+					url('webfonts/24EC72_6_0.svg#wf') format('svg');
+}*/
+
+@font-face {
+	font-family: 	'PFDinTextPro-Thin';
+	src: 			url('webfonts/24EC72_8_0.eot');
+	src: 			url('webfonts/24EC72_8_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_8_0.woff') format('woff'),
+					url('webfonts/24EC72_8_0.ttf') format('truetype'),
+					url('webfonts/24EC72_8_0.svg#wf') format('svg');
+}
+
+@font-face {
+	font-family: 	'PFDinTextPro-ThinItalic';
+	src: 			url('webfonts/24EC72_9_0.eot');
+	src: 			url('webfonts/24EC72_9_0.eot?#iefix') format('embedded-opentype'),
+					url('webfonts/24EC72_9_0.woff') format('woff'),
+					url('webfonts/24EC72_9_0.ttf') format('truetype'),
+					url('webfonts/24EC72_9_0.svg#wf') format('svg');
+}
