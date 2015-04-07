@@ -10,9 +10,9 @@
  * $space-unit-md
  * $space-unit-lg
  * $space-unit-xl
+ * $space-unit-xxl
  * $space-unit-xxs
  * $space-unit-xxxs
- *
  */
 
 @mixin margin-xxxs {
@@ -41,6 +41,10 @@
 
 @mixin margin-xl {
 	margin: $space-unit-xl;
+}
+
+@mixin margin-xxl {
+	margin: $space-unit-xxl;
 }
 
 @mixin no-margin {
@@ -75,6 +79,10 @@
 	margin-top: $space-unit-xl;
 }
 
+@mixin margin-top-xxl {
+	margin-top: $space-unit-xxl;
+}
+
 @mixin no-margin-top {
 	margin-top: 0;
 }
@@ -105,6 +113,10 @@
 
 @mixin margin-right-xl {
 	margin-right: $space-unit-xl;
+}
+
+@mixin margin-right-xxl {
+	margin-right: $space-unit-xxl;
 }
 
 @mixin no-margin-right {
@@ -139,6 +151,10 @@
 	margin-bottom: $space-unit-xl;
 }
 
+@mixin margin-bottom-xxl {
+	margin-bottom: $space-unit-xxl;
+}
+
 @mixin no-margin-bottom {
 	margin-bottom: 0;
 }
@@ -169,6 +185,10 @@
 
 @mixin margin-left-xl {
 	margin-left: $space-unit-xl;
+}
+
+@mixin margin-left-xxl {
+	margin-left: $space-unit-xxl;
 }
 
 @mixin no-margin-left {
@@ -208,6 +228,11 @@
 @mixin margin-vertical-xl {
 	@include margin-top-xl;
 	@include margin-bottom-xl;
+}
+
+@mixin margin-vertical-xxl {
+	@include margin-top-xxl;
+	@include margin-bottom-xxl;
 }
 
 @mixin no-margin-vertical {
@@ -250,6 +275,11 @@
 	@include margin-right-xl;
 }
 
+@mixin margin-horizontal-xxl {
+	@include margin-left-xxl;
+	@include margin-right-xxl;
+}
+
 @mixin no-margin-horizontal {
 	margin-left: 0;
 	margin-right: 0;
@@ -281,6 +311,10 @@
 
 @mixin padding-xl {
 	padding: $space-unit-xl;
+}
+
+@mixin padding-xxl {
+	padding: $space-unit-xxl;
 }
 
 @mixin no-padding {
@@ -315,6 +349,10 @@
 	padding-top: $space-unit-xl;
 }
 
+@mixin padding-top-xxl {
+	padding-top: $space-unit-xxl;
+}
+
 @mixin no-padding-top {
 	padding-top: 0;
 }
@@ -345,6 +383,10 @@
 
 @mixin padding-right-xl {
 	padding-right: $space-unit-xl;
+}
+
+@mixin padding-right-xxl {
+	padding-right: $space-unit-xxl;
 }
 
 @mixin no-padding-right {
@@ -379,6 +421,10 @@
 	padding-bottom: $space-unit-xl;
 }
 
+@mixin padding-bottom-xxl {
+	padding-bottom: $space-unit-xxl;
+}
+
 @mixin no-padding-bottom {
 	padding-bottom: 0;
 }
@@ -409,6 +455,10 @@
 
 @mixin padding-left-xl {
 	padding-left: $space-unit-xl;
+}
+
+@mixin padding-left-xxl {
+	padding-left: $space-unit-xxl;
 }
 
 @mixin no-padding-left {
@@ -450,6 +500,11 @@
 	@include padding-bottom-xl;
 }
 
+@mixin padding-vertical-xxl {
+	@include padding-top-xxl;
+	@include padding-bottom-xxl;
+}
+
 @mixin no-padding-vertical {
 	padding-top: 0;
 	padding-bottom: 0;
@@ -488,6 +543,11 @@
 @mixin padding-horizontal-xl {
 	@include padding-left-xl;
 	@include padding-right-xl;
+}
+
+@mixin padding-horizontal-xxl {
+	@include padding-left-xxl;
+	@include padding-right-xxl;
 }
 
 @mixin no-padding-horizontal {

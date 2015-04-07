@@ -6,12 +6,12 @@
 	@include margin-bottom-lg;
 }
 
-.seccion--isla--xl {
-	@include padding-vertical-xl;
-}
-
 .seccion--isla--sm {
 	@include padding-vertical-sm;
+}
+
+.seccion--isla--xxl {
+	@include padding-vertical-xxl;
 }
 
 /**
@@ -32,4 +32,16 @@
 
 .seccion__cabecera--centrada {
 	text-align: center;
+}
+
+.seccion__grupo-titulos {
+	@include margin-bottom-xs;
+}
+
+.seccion__titulo {
+	@include no-margin-bottom;
+}
+
+.seccion__subtitulo {
+	@include no-margin-bottom;
 }

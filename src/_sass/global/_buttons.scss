@@ -2,17 +2,33 @@
 	#BUTTONS
 \*------------------------------------*/
 
-.btn--transparente--defecto {
-	@include button-variant($gray, transparent, $gray);
-}
 
-.btn--transparente--invertido {
-	@include button-variant(#fff, transparent, #fff);
-}
-
-.btn--transparente--defecto,
-.btn--transparente--invertido {
-	border-width: 3px;
+.btn--transparente {
+	&--defecto,
+	&--invertido {
+		border-width: 3px;
+		background-color: transparent;
+		@include transition(all 200ms ease-out);
+	}
+	&--defecto {
+		color: $gray;
+		border-color: $gray;
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: #fff;
+		}
+	}
+	&--invertido {
+		color: #fff;
+		border-color: #fff;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $brand-primary;
+			background-color: #fff;
+		}
+	}
 }
 
 .btn--redondeado {

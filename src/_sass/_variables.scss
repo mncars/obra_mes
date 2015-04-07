@@ -137,13 +137,14 @@ $font-weight-negrita: 		normal;
 $color-negrita: 			$headings-color;
 
 $space-unit-xs: 			15px;
-$space-unit-sm:  			($space-unit-xs * 2); 		// 30px;
-$space-unit-md:  			($space-unit-xs * 3); 		// 45px;
-$space-unit-lg:  			($space-unit-xs * 4); 		// 60px;
-$space-unit-xl:  			($space-unit-xs * 5); 		// 75px;
+$space-unit-sm:  			($space-unit-xs * 2); 		// 30px
+$space-unit-md:  			($space-unit-xs * 3); 		// 45px
+$space-unit-lg:  			($space-unit-xs * 4); 		// 60px
+$space-unit-xl:  			($space-unit-xs * 5); 		// 75px
+$space-unit-xxl:  			($space-unit-xs * 8); 		// 120px
 
-$space-unit-xxs: 			($space-unit-xs / 1.5); 	// 10px;
-$space-unit-xxxs:  			($space-unit-xs / 3);   	// 5px;
+$space-unit-xxs: 			($space-unit-xs / 1.5); 	// 10px
+$space-unit-xxxs:  			($space-unit-xs / 3);   	// 5px
 
 $fondo-oscuro: 				$gray-dark;
 $fondo-claro: 				$white-dark;
