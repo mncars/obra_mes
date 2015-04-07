@@ -1,0 +1,92 @@
+/*------------------------------------*\
+    #NAV-BAR
+\*------------------------------------*/
+
+.navbar-static-top {
+	@media (min-width: $grid-float-breakpoint) {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.navbar--transparente {
+	&,
+	.navbar-collapse {
+		@media (min-width: $grid-float-breakpoint) {
+			background-color: transparent;
+			border-color: transparent;
+		}
+	}
+	.navbar-nav {
+		> li > a {
+			@media (min-width: $grid-float-breakpoint) {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.navbar-brand {
+	@include no-padding;
+	@include margin-xxs;
+	@include spriteReplace (sprite1, 3, 0, 100px, 50px);
+	@media (min-width: $grid-float-breakpoint) {
+		.navbar > .container &,
+    	.navbar > .container-fluid & {
+    		@include no-margin-horizontal;
+    		@include margin-vertical-xs;	
+    	}		
+		@include spriteReplace (sprite1, 0, 0, 120px, 60px);
+	}
+}
+
+.lt-ie9 {
+	.navbar-brand {
+		@include spritePNG (sprite1);
+		@media (min-width: $grid-float-breakpoint) {
+			@include spritePNG (sprite1);
+		}
+	}
+}
+
+.navbar-text {
+	margin-top: 22px;
+	margin-bottom: 22px;
+	font-family: $font-museo-bold;
+	font-size: 21px;
+	line-height: 1.3;
+	@media (min-width: $grid-float-breakpoint) {
+		font-size: 36px;
+	}
+}
+
+.navbar-toggle {
+	@include margin-right-xxs;
+	border-radius: 0;
+}
+
+.navbar-nav {
+	> li > a {
+		line-height: 1.4;
+		@media (min-width: $grid-float-breakpoint) {
+			padding-top: 28px;
+			padding-bottom: 29px;
+		}
+	}
+}
+
+.navbar-collapse {
+	border: none;
+	box-shadow: none;
+}
+
+.navbar-inverse {
+	.navbar-collapse {
+		background-color: darken($gray-dark, 3%);
+		@media (min-width: $grid-float-breakpoint) {
+			background-color: transparent;
+		}
+	}
+}

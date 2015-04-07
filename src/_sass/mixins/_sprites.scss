@@ -1,0 +1,72 @@
+/*------------------------------------*\
+	#MIXINS-SPRITES
+\*------------------------------------*/
+
+
+@mixin spriteHelper($x, $y, $spriteX, $spriteY) {
+	background-position-x: -#{$x * $spriteX};
+	background-position-y: -#{$y * $spriteY};
+	background-repeat: no-repeat;
+}
+
+/**
+ * Definimos los nombres de sprites, sus rutas y sus tamaños de cuadrícula.
+ */
+
+@mixin sprite($image, $x, $y) {
+	@if $image == sprite1 {
+		$spriteX: 50px;
+		$spriteY: 50px;
+		@include spriteHelper($x, $y, $spriteX, $spriteY);
+		background-image: url("../img/sprites/#{$image}.svg");
+	}
+}
+
+/**
+ * Sprite: Reemplazar texto
+ */
+
+@mixin hideText{
+	text-indent: -999em;
+	letter-spacing: -999em;
+	overflow: hidden;
+}
+
+@mixin spriteReplace ($image, $x, $y, $width, $height) {
+	@include sprite($image, $x, $y);
+	@include hideText;
+	width: $width;
+	height: $height;
+}
+
+/**
+ * Sprite: Inline images
+ */
+
+@mixin spriteInline($image, $x, $y, $width, $height) {
+	@include sprite($image, $x, $y);
+	display: inline-block;
+	content: "";
+	width: $width;
+	height: $height;
+}
+
+/**
+ * Sprite: Padded images
+ */
+
+@mixin spritePadded($image, $x, $y, $width, $height) {
+	@include sprite($image, $x, $y);
+	position: absolute;
+	content: "";
+	width: $width;
+	height: $height;
+}
+
+/**
+ * Sprite: Sustituimos las imágenes .svg por .png para IE8
+ */
+
+@mixin spritePNG($image) {
+	background-image: url("../img/sprites/#{$image}.png");
+}

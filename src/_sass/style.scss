@@ -9,7 +9,11 @@
 @import "global/scaffolding";
 @import "global/type";
 @import "global/fondos";
-@import "global/elementos-centrados";
 
 // Componentes
+@import "componentes/navbar";
 @import "componentes/seccion";
+@import "componentes/hero";
+
+// Modulos
+@import "modulos/wall-drawing-47";

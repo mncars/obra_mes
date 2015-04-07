@@ -203,8 +203,8 @@ td, th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
-  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
+  src: url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot');
+  src: url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
 
 .glyphicon {
   position: relative;
@@ -5155,6 +5155,27 @@ p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, ul + h1, ul + h2, ul + h3, ul + 
   opacity: .96; }
 
 /*------------------------------------*\
+    #ELEMENTOS-CENTRADOS
+\*------------------------------------*/
+/**
+ * Añado  varias clases para centrar elementos en X y en Y.
+ */
+.elemento-centrado--vertical {
+  position: relative; }
+
+.elemento-centrado--vertical__contenedor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .elemento-centrado--vertical__contenedor > :last-child {
+    margin-bottom: 0; }
+
+/*------------------------------------*\
     #SECCION
 \*------------------------------------*/
 .seccion--bloque {
@@ -5170,3 +5191,6 @@ p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, ul + h1, ul + h2, ul + h3, ul + 
 
 .seccion__cabecera {
   margin-bottom: 30px; }
+
+.seccion__cabecera--centrada {
+  text-align: center; }

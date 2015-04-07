@@ -10,7 +10,8 @@
   "overrides": {
     "bootstrap-sass-official": {
       "main": [
-        "assets/javascripts/**/*"
+        "assets/javascripts/**/*",
+        "assets/fonts/**/*"
       ]
     },
     "modernizr": {

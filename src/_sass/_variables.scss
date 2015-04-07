@@ -1,6 +1,7 @@
 /*
   Incluye:
 	- Fuentes propias
+	- Colores propias
     - Variables sobreescritas de bootstrap
     - Variables propias 
 */
@@ -17,14 +18,20 @@ $font-museo-regular: 	  	'PFDinTextPro-Regular', Helvetica, Arial, sans-serif;
 $font-museo-thin: 		  	'PFDinTextPro-Thin', Helvetica, Arial, sans-serif;
 $font-museo-thin-italic: 	'PFDinTextPro-ThinItalic', Helvetica, Arial, sans-serif;
 
+/*
+	Colores propios
+*/
 
+$white-dark: 				#f3f3f3;
 
 /*
 	Variables sobreescritas de bootstrap
 */
 
+$gray-darker: 				#222;
 $gray-dark: 				#333;
 $gray:                      #666;
+$gray-light: 				lighten(#777, 8%);
 
 $brand-primary: 		    #1ABB9C;
 
@@ -48,12 +55,26 @@ $line-height-base: 			1.6;
 $headings-font-weight:    	normal;
 $headings-color:          	$gray-dark;
 
+$bootstrap-sass-asset-helper:		(twbs-font-path("") != unquote('twbs-font-path("")')) !default;
+$icon-font-path: 					if($bootstrap-sass-asset-helper, "bootstrap/", "../vendor/bootstrap-sass-official/assets/fonts/bootstrap/") !default;
+
+$navbar-height:                    70px;
+$navbar-margin-bottom:             0;
+$navbar-border-radius:             0;
+$navbar-collapse-max-height:       340px;
+
+$navbar-inverse-bg:                $gray-dark;
+$navbar-inverse-border:            $gray-dark;
+$navbar-inverse-color:             #fff;
+
+$navbar-inverse-link-color:        $gray-light;
+
+$navbar-inverse-toggle-border-color:       transparent;
+$navbar-inverse-toggle-hover-bg:           darken($gray-dark, 3%);
 
 /*
 	Variables propias
 */
-
-$white-dark: 				#f3f3f3;
 
 $font-size-base-xs: 		18px;
 $font-size-base-sm: 		$font-size-base;
@@ -124,6 +145,9 @@ $space-unit-xxxs:  			($space-unit-xs / 3);   // 5px;
 $fondo-oscuro: 				$gray-dark;
 $fondo-claro: 				$white-dark;
 $fondo-tintado: 			$brand-primary;
+
+$veladura-suave: 			.25;
+$veladura-fuerte: 			.75;
 
 $color-claro: 				#979797;
 $color-muy-claro: 			#fff;

@@ -5,44 +5,52 @@
 /**
  * Variables:
  *
- * $fondo-oscuro
  * $fondo-claro
+ * $fondo-oscuro
  * $fondo-tintado
- *
- * $color-claro
- * $color-muy-claro
- *
+ * $veladura-suave
+ * $veladura-fuerte
+ * $veladura-patron
  */
 
-.fondo--oscuro {
-	color: $color-claro;
-	background-color: $fondo-oscuro;
-}
+/**
+ * Colores de fondo
+ */
 
 .fondo--claro {
-	background-color: $fondo-claro;
-}
-
-.fondo--tintado {
-	color: $color-muy-claro;
-	background-color: $fondo-tintado;
-}
-
-.fondo--oscuro,
-.fondo--tintado {
-	h1, h2, h3, h4, h5, h6,
-	.h1, .h2, .h3, .h4, .h5, .h6,
-	a,
-	strong,
-	.fuente-negrita {
-		color: $color-muy-claro;
+	&,
+	&:before {
+		background-color: $fondo-claro;
 	}
 }
 
-.fondo--imagen {
+.fondo--oscuro {
+	&,
+	&:before {
+		background-color: $fondo-oscuro;
+	}
+}
+
+.fondo--tintado {
+	&,
+	&:before {
+		background-color: $fondo-tintado;
+	}
+}
+
+/**
+ * Veladuras:
+ *
+ * La opacidad de la veladura suave y fuerte se define en la hoja de 
+ * variables. La opacidad y las imágenes de fondo de las veladuras de tipo 
+ * patron las definimos en los estilos personalizados de la obra del mes
+ * correspondiente (están en la carpeta '_sass/modulos').
+ */
+
+.fondo--veladura--suave,
+.fondo--veladura--fuerte,
+.fondo--veladura--patron {
 	position: relative;
-	background-position: center;
-	background-size: cover;
 	&:before {
 		content: "";
 		position: absolute;
@@ -50,51 +58,40 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		z-index: 100;
+		z-index: 0;
 	}
 }
 
-.fondo--claro {
-	&.fondo--imagen--suave {
-		&:before {
-			background-color: $fondo-claro;
-			opacity: .66;
-		}
-	}
-	&.fondo--imagen--muy-suave {
-		&:before {
-			background-color: $fondo-claro;
-			opacity: .95;
-		}
+.fondo--veladura--suave {
+	&:before {
+		opacity: $veladura-suave;
 	}
 }
 
-.fondo--oscuro {
-	&.fondo--imagen--suave {
-		&:before {
-			background-color: $fondo-oscuro;
-			opacity: .57;
-		}
-	}
-	&.fondo--imagen--muy-suave {
-		&:before {
-			background-color: $fondo-oscuro;
-			opacity: .97;
-		}
+.fondo--veladura--fuerte {
+	&:before {
+		opacity: $veladura-fuerte;
 	}
 }
 
-.fondo--tintado {
-	&.fondo--imagen--suave {
-		&:before {
-			background-color: $fondo-tintado;
-			opacity: .84;
-		}
-	}
-	&.fondo--imagen--muy-suave {
-		&:before {
-			background-color: $fondo-tintado;
-			opacity: .96;
-		}
-	}
+/**
+ * Imagenes de fondo
+ */
+
+.fondo--imagen--centrada,
+.fondo--imagen--arriba,
+.fondo--imagen--abajo {
+	background-size: cover;
+}
+
+.fondo--imagen--centrada {
+	background-position: center;
+}
+
+.fondo--imagen--arriba {
+	background-position: top;
+}
+
+.fondo--imagen--abajo {
+	background-position: botttom;
 }

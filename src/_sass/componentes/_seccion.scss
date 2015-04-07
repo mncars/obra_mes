@@ -14,6 +14,18 @@
 	@include padding-vertical-sm;
 }
 
+/**
+ * Contenedor auxiliar para que el contenido se superponga correctamente al fondo.
+ */
+
+.seccion__contenedor {
+	position: relative;
+}
+
+/**
+ * Cabecera
+ */
+
 .seccion__cabecera {
 	@include margin-bottom-sm;
 }
