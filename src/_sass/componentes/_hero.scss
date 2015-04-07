@@ -9,14 +9,25 @@
 .hero--centrado-y {
 	position: relative;
 	.hero__contenedor {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		bottom: auto;
-		right: auto;
-		@include translate(-50%, -50%);
+		@include center;
 		> :last-child {
 			@include no-margin-bottom;
 		}
 	}
+}
+
+.hero__grupo-titulos {
+	@include margin-bottom-xs;
+}
+
+.hero__titulo {
+	@include no-margin-bottom;
+	@include font-size-hero-titulo;
+	font-family: $font-family-hero-titulo;
+}
+
+.hero__subtitulo {
+	@include no-margin-bottom;
+	@include font-size-hero-subtitulo;
+	font-family: $font-family-hero-subtitulo;
 }

@@ -43,7 +43,7 @@ $font-size-base: 			23px;
 $font-size-large:         	28px;
 $font-size-small:         	12px;
 
-$font-size-h1:            	72px;
+$font-size-h1:            	60px;
 $font-size-h2:            	48px;
 $font-size-h3:            	44px;
 $font-size-h4:            	28px;
@@ -76,50 +76,53 @@ $navbar-inverse-toggle-hover-bg:           darken($gray-dark, 3%);
 	Variables propias
 */
 
-$font-size-base-xs: 		18px;
-$font-size-base-sm: 		$font-size-base;
-$font-size-base-md: 		$font-size-base;
 $font-size-base-lg: 		$font-size-base;
+$font-size-base-md: 		$font-size-base;
+$font-size-base-sm: 		$font-size-base;
+$font-size-base-xs: 		18px;
 
-$font-size-large-xs: 		20px;
-$font-size-large-sm: 		$font-size-large;
-$font-size-large-md: 		$font-size-large;
 $font-size-large-lg: 		$font-size-large;
+$font-size-large-md: 		$font-size-large;
+$font-size-large-sm: 		$font-size-large;
+$font-size-large-xs: 		20px;
 
-$font-size-small-xs: 		$font-size-small;
-$font-size-small-sm: 		$font-size-small;
-$font-size-small-md: 		$font-size-small;
 $font-size-small-lg: 		$font-size-small;
+$font-size-small-md: 		$font-size-small;
+$font-size-small-sm: 		$font-size-small;
+$font-size-small-xs: 		$font-size-small;
 
-$font-size-h1-xs: 			$font-size-h1;
-$font-size-h1-sm: 			$font-size-h1;
-$font-size-h1-md: 			$font-size-h1;
+$font-size-md-conversor: 	940 / 1140;
+$font-size-sm-conversor: 	720 / 1140;
+
 $font-size-h1-lg: 			$font-size-h1;
+$font-size-h1-md: 			ceil($font-size-h1 * $font-size-md-conversor);
+$font-size-h1-sm: 			ceil($font-size-h1 * $font-size-sm-conversor);
+$font-size-h1-xs: 			$font-size-h1-sm;
 
-$font-size-h2-xs: 			34px;
-$font-size-h2-sm: 			$font-size-h2;
-$font-size-h2-md: 			$font-size-h2;
 $font-size-h2-lg: 			$font-size-h2;
+$font-size-h2-md: 			ceil($font-size-h2 * $font-size-md-conversor);
+$font-size-h2-sm: 			ceil($font-size-h2 * $font-size-sm-conversor);
+$font-size-h2-xs: 			$font-size-h2-sm;
 
-$font-size-h3-xs: 			30px;
-$font-size-h3-sm: 			$font-size-h3;
-$font-size-h3-md: 			$font-size-h3;
 $font-size-h3-lg: 			$font-size-h3;
+$font-size-h3-md: 			ceil($font-size-h3 * $font-size-md-conversor);
+$font-size-h3-sm: 			ceil($font-size-h3 * $font-size-sm-conversor);
+$font-size-h3-xs: 			$font-size-h3-sm;
 
-$font-size-h4-xs: 			$font-size-h4;
-$font-size-h4-sm: 			$font-size-h4;
-$font-size-h4-md: 			$font-size-h4;
 $font-size-h4-lg: 			$font-size-h4;
+$font-size-h4-md: 			ceil($font-size-h4 * $font-size-md-conversor);
+$font-size-h4-sm: 			ceil($font-size-h4 * $font-size-sm-conversor);
+$font-size-h4-xs: 			$font-size-h4-sm;
 
-$font-size-h5-xs: 			$font-size-h5;
-$font-size-h5-sm: 			$font-size-h5;
-$font-size-h5-md: 			$font-size-h5;
 $font-size-h5-lg: 			$font-size-h5;
+$font-size-h5-md: 			ceil($font-size-h5 * $font-size-md-conversor);
+$font-size-h5-sm: 			ceil($font-size-h5 * $font-size-sm-conversor);
+$font-size-h5-xs: 			$font-size-h5-sm;
 
-$font-size-h6-xs: 			$font-size-h6;
-$font-size-h6-sm: 			$font-size-h6;
-$font-size-h6-md: 			$font-size-h6;
 $font-size-h6-lg: 			$font-size-h6;
+$font-size-h6-md: 			ceil($font-size-h6 * $font-size-md-conversor);
+$font-size-h6-sm: 			ceil($font-size-h6 * $font-size-sm-conversor);
+$font-size-h6-xs: 			$font-size-h6-sm;
 
 $font-family-h1: 			$font-museo-bold;
 $font-family-h2: 			$font-museo-bold;
@@ -134,13 +137,13 @@ $font-weight-negrita: 		normal;
 $color-negrita: 			$headings-color;
 
 $space-unit-xs: 			15px;
-$space-unit-sm:  			($space-unit-xs * 2); // 30px;
-$space-unit-md:  			($space-unit-xs * 3); // 45px;
-$space-unit-lg:  			($space-unit-xs * 4); // 60px;
-$space-unit-xl:  			($space-unit-xs * 5); // 75px;
+$space-unit-sm:  			($space-unit-xs * 2); 		// 30px;
+$space-unit-md:  			($space-unit-xs * 3); 		// 45px;
+$space-unit-lg:  			($space-unit-xs * 4); 		// 60px;
+$space-unit-xl:  			($space-unit-xs * 5); 		// 75px;
 
-$space-unit-xxs: 			($space-unit-xs / 1.5); // 10px;
-$space-unit-xxxs:  			($space-unit-xs / 3);   // 5px;
+$space-unit-xxs: 			($space-unit-xs / 1.5); 	// 10px;
+$space-unit-xxxs:  			($space-unit-xs / 3);   	// 5px;
 
 $fondo-oscuro: 				$gray-dark;
 $fondo-claro: 				$white-dark;
@@ -149,5 +152,20 @@ $fondo-tintado: 			$brand-primary;
 $veladura-suave: 			.25;
 $veladura-fuerte: 			.75;
 
-$color-claro: 				#979797;
-$color-muy-claro: 			#fff;
+$color-claro: 				#fff;
+$color-medio: 				$gray-light;
+
+$font-size-hero-titulo: 			72px;
+$font-size-hero-titulo-lg: 			$font-size-hero-titulo;
+$font-size-hero-titulo-md: 			ceil($font-size-hero-titulo * $font-size-md-conversor);
+$font-size-hero-titulo-sm: 			ceil($font-size-hero-titulo * $font-size-sm-conversor);
+$font-size-hero-titulo-xs: 			36px;
+
+$font-size-hero-subtitulo: 			72px;
+$font-size-hero-subtitulo-lg: 		$font-size-hero-subtitulo;
+$font-size-hero-subtitulo-md: 		ceil($font-size-hero-subtitulo * $font-size-md-conversor);
+$font-size-hero-subtitulo-sm: 		ceil($font-size-hero-subtitulo * $font-size-sm-conversor);
+$font-size-hero-subtitulo-xs: 		36px;
+
+$font-family-hero-titulo: 			$font-museo-bold;
+$font-family-hero-subtitulo: 		$font-museo-thin;

@@ -140,3 +140,19 @@
         $font-size-h6-md, 
         $font-size-h6-lg);  
 }
+
+@mixin font-size-hero-titulo {
+    @include font-size-helper (
+        $font-size-hero-titulo-xs, 
+        $font-size-hero-titulo-sm, 
+        $font-size-hero-titulo-md, 
+        $font-size-hero-titulo-lg);  
+}
+
+@mixin font-size-hero-subtitulo {
+    @include font-size-helper (
+        $font-size-hero-subtitulo-xs, 
+        $font-size-hero-subtitulo-sm, 
+        $font-size-hero-subtitulo-md, 
+        $font-size-hero-subtitulo-lg);  
+}

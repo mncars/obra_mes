@@ -1,0 +1,40 @@
+/*------------------------------------*\
+	#BUTTONS
+\*------------------------------------*/
+
+.btn--transparente--defecto {
+	@include button-variant($gray, transparent, $gray);
+}
+
+.btn--transparente--invertido {
+	@include button-variant(#fff, transparent, #fff);
+}
+
+.btn--transparente--defecto,
+.btn--transparente--invertido {
+	border-width: 3px;
+}
+
+.btn--redondeado {
+	@include no-padding;
+	position: relative;
+	border-radius: 100%;
+	.glyphicon {
+		@include center;
+	}
+}
+
+.btn--redondeado {
+	&.btn-lg {
+		@include size(60px, 60px);
+		@media (min-width: $screen-lg-min) {
+			@include size(90px, 90px);
+		}
+		.glyphicon {
+			font-size: 20px;
+			@media (min-width: $screen-lg-min) {
+				font-size: 30px;
+			}
+		}
+	}
+}

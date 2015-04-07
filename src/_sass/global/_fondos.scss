@@ -25,16 +25,26 @@
 }
 
 .fondo--oscuro {
+	color: $color-medio;
 	&,
 	&:before {
 		background-color: $fondo-oscuro;
 	}
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		color: $color-claro;
+	}
 }
 
 .fondo--tintado {
+	color: $color-claro;
 	&,
 	&:before {
 		background-color: $fondo-tintado;
+	}
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		color: $color-claro;
 	}
 }
 

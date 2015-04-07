@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #MIXINS-CENTER
+\*------------------------------------*/
+
+/**
+ * Para que centrar correctamente el elemento es necesario añadirle a su padre 
+ * la regla 'position: relative;'.
+ */
+
+@mixin center {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	bottom: auto;
+	right: auto;
+	@include translate(-50%, -50%);
+}
