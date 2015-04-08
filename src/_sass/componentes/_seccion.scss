@@ -11,7 +11,10 @@
 }
 
 .seccion--isla--xxl {
-	@include padding-vertical-xxl;
+	@include padding-vertical-xl;
+	@media (min-width: $screen-sm-min) {
+		@include padding-vertical-xxl;
+	}
 }
 
 /**
