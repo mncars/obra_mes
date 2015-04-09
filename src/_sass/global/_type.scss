@@ -112,3 +112,71 @@ blockquote {
 		@include margin-top-xs;
 	}
 }
+
+/**
+ * Blockquotes: sobreescribo y añado varias reglas de estilos.
+ */
+
+blockquote {
+	@include no-padding;
+	@include margin-bottom-sm;
+	border: none;
+	font-family: $font-museo-bold;
+	@include font-size-blockquote;
+	color: $blockquote-color;
+	line-height: $blockquote-line-height;
+	&.blockquote--izquierda,
+	&.blockquote--derecha {
+		@include margin-bottom-xs;
+		@include padding-vertical-xs;
+		@include padding-left-xs;
+		border-left: 1px solid $blockquote-border-color;
+		@media (min-width: $screen-sm-min) {
+			max-width: 45%;
+		}
+		@media (min-width: $screen-lg-min) {
+			max-width: $blockquote-max-width;
+		}
+	}
+	&.blockquote--izquierda {
+		@media (min-width: $screen-sm-min) {
+			@include margin-right-sm;
+			@include padding-right-sm;
+			@include no-padding-left;
+			float: left;
+			text-align: right;
+			border-left: none;
+			border-right: 1px solid $blockquote-border-color;	
+		}
+		@media (min-width: $screen-lg-min) {
+			margin-left: -115px;
+		}
+	}
+	&.blockquote--derecha {
+		@media (min-width: $screen-sm-min) {
+			@include margin-left-xs;
+			@include padding-left-sm;
+			float: right;
+		}
+		@media (min-width: $screen-lg-min) {
+			margin-right: -100px;
+		}
+	}
+	&.blockquote--destacado {
+		@include no-margin-bottom;
+		@include padding-vertical-md;
+		font-size: $blockquote-destacado-font-size;
+		text-align: center;
+		@media (min-width: $screen-lg-min) {
+			max-width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		&:before {
+			@include spriteInline(sprite1, 6, 0, 103px, 80px);
+		}
+		&:after {
+			@include spriteInline(sprite1, 9, 0, 103px, 80px);
+		}
+	}
+}

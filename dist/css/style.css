@@ -1308,7 +1308,7 @@ abbr[title], abbr[data-original-title] {
 blockquote {
   padding: 17.5px 35px;
   margin: 0 0 35px;
-  font-size: 27.5px;
+  font-size: 30px;
   border-left: 5px solid #eeeeee; }
   blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     margin-bottom: 0; }
@@ -4905,7 +4905,26 @@ button.close {
  * $font-size-h6-sm
  * $font-size-h6-md
  * $font-size-h6-lg
+
+ * $font-size-hero-titulo-xs
+ * $font-size-hero-titulo-sm
+ * $font-size-hero-titulo-md
+ * $font-size-hero-titulo-lg
  *
+ * $font-size-hero-subtitulo-xs
+ * $font-size-hero-subtitulo-sm
+ * $font-size-hero-subtitulo-md
+ * $font-size-hero-subtitulo-lg
+ *
+ * $font-size-blockquote-xs
+ * $font-size-blockquote-sm
+ * $font-size-blockquote-md
+ * $font-size-blockquote-lg
+
+ * $font-size-blockquote-destacado-xs
+ * $font-size-blockquote-destacado-sm
+ * $font-size-blockquote-destacado-md
+ * $font-size-blockquote-destacado-lg
  */
 /*------------------------------------*\
     #MIXINS-SPACES
@@ -5120,6 +5139,88 @@ h6, .h6 {
  */
 p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, ul + h1, ul + h2, ul + h3, ul + h4, ul + h5, ul + h6, ol + h1, ol + h2, ol + h3, ol + h4, ol + h5, ol + h6, dl + h1, dl + h2, dl + h3, dl + h4, dl + h5, dl + h6, table + h1, table + h2, table + h3, table + h4, table + h5, table + h6, blockquote + h1, blockquote + h2, blockquote + h3, blockquote + h4, blockquote + h5, blockquote + h6 {
   margin-top: 15px; }
+
+/**
+ * Blockquotes: sobreescribo y añado varias reglas de estilos.
+ */
+blockquote {
+  padding: 0;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'PFDinTextPro-Bold', Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  color: #333;
+  line-height: 1.2; }
+  @media (min-width: 768px) {
+    blockquote {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    blockquote {
+      font-size: 25px; } }
+  @media (min-width: 1200px) {
+    blockquote {
+      font-size: 30px; } }
+  blockquote.blockquote--izquierda, blockquote.blockquote--derecha {
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #eeeeee; }
+    @media (min-width: 768px) {
+      blockquote.blockquote--izquierda, blockquote.blockquote--derecha {
+        max-width: 45%; } }
+    @media (min-width: 1200px) {
+      blockquote.blockquote--izquierda, blockquote.blockquote--derecha {
+        max-width: 360px; } }
+  @media (min-width: 768px) {
+    blockquote.blockquote--izquierda {
+      margin-right: 30px;
+      padding-right: 30px;
+      padding-left: 0;
+      float: left;
+      text-align: right;
+      border-left: none;
+      border-right: 1px solid #eeeeee; } }
+  @media (min-width: 1200px) {
+    blockquote.blockquote--izquierda {
+      margin-left: -115px; } }
+  @media (min-width: 768px) {
+    blockquote.blockquote--derecha {
+      margin-left: 15px;
+      padding-left: 30px;
+      float: right; } }
+  @media (min-width: 1200px) {
+    blockquote.blockquote--derecha {
+      margin-right: -100px; } }
+  blockquote.blockquote--destacado {
+    margin-bottom: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 40px;
+    text-align: center; }
+    @media (min-width: 1200px) {
+      blockquote.blockquote--destacado {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto; } }
+    blockquote.blockquote--destacado:before {
+      background-position-x: -300px;
+      background-position-y: -0px;
+      background-repeat: no-repeat;
+      background-image: url("../img/sprites/sprite1.svg");
+      display: inline-block;
+      content: "";
+      width: 103px;
+      height: 80px; }
+    blockquote.blockquote--destacado:after {
+      background-position-x: -450px;
+      background-position-y: -0px;
+      background-repeat: no-repeat;
+      background-image: url("../img/sprites/sprite1.svg");
+      display: inline-block;
+      content: "";
+      width: 103px;
+      height: 80px; }
 
 /*------------------------------------*\
 	#BUTTONS

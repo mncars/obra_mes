@@ -49,7 +49,26 @@
  * $font-size-h6-sm
  * $font-size-h6-md
  * $font-size-h6-lg
+
+ * $font-size-hero-titulo-xs
+ * $font-size-hero-titulo-sm
+ * $font-size-hero-titulo-md
+ * $font-size-hero-titulo-lg
  *
+ * $font-size-hero-subtitulo-xs
+ * $font-size-hero-subtitulo-sm
+ * $font-size-hero-subtitulo-md
+ * $font-size-hero-subtitulo-lg
+ *
+ * $font-size-blockquote-xs
+ * $font-size-blockquote-sm
+ * $font-size-blockquote-md
+ * $font-size-blockquote-lg
+
+ * $font-size-blockquote-destacado-xs
+ * $font-size-blockquote-destacado-sm
+ * $font-size-blockquote-destacado-md
+ * $font-size-blockquote-destacado-lg
  */
 
 @mixin font-size-helper (
@@ -155,4 +174,20 @@
         $font-size-hero-subtitulo-sm, 
         $font-size-hero-subtitulo-md, 
         $font-size-hero-subtitulo-lg);  
+}
+
+@mixin font-size-blockquote {
+    @include font-size-helper (
+        $font-size-blockquote-xs, 
+        $font-size-blockquote-sm, 
+        $font-size-blockquote-md, 
+        $font-size-blockquote-lg);  
+}
+
+@mixin font-size-blockquote-destacado {
+    @include font-size-helper (
+        $font-size-blockquote-destacado-xs, 
+        $font-size-blockquote-destacado-sm, 
+        $font-size-blockquote-destacado-md, 
+        $font-size-blockquote-destacado-lg);  
 }

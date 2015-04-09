@@ -173,3 +173,20 @@ $font-family-hero-subtitulo: 		$font-museo-thin;
 
 $carousel-color-por-defecto: 	lighten($gray-light, 15%);
 $carousel-color-invertido: 		#fff;
+
+$blockquote-line-height: 			1.2;
+$blockquote-color: 					$headings-color;
+$blockquote-max-width: 				360px;
+
+$blockquote-font-size: 				30px;
+$blockquote-destacado-font-size: 	40px;
+
+$font-size-blockquote-lg: 			$blockquote-font-size;
+$font-size-blockquote-md: 			ceil($blockquote-font-size * $font-size-md-conversor);
+$font-size-blockquote-sm: 			24px;
+$font-size-blockquote-xs: 			21px;
+
+$font-size-blockquote-destacado-lg:	$blockquote-destacado-font-size;
+$font-size-blockquote-destacado-md:	ceil($blockquote-destacado-font-size * $font-size-md-conversor);
+$font-size-blockquote-destacado-sm:	ceil($blockquote-destacado-font-size * $font-size-sm-conversor);
+$font-size-blockquote-destacado-xs:	$font-size-blockquote-destacado-sm;
