@@ -4958,10 +4958,10 @@ body {
   font-size: 18px; }
   @media (min-width: 768px) {
     body {
-      font-size: 22px; } }
+      font-size: 19px; } }
   @media (min-width: 992px) {
     body {
-      font-size: 22px; } }
+      font-size: 20px; } }
   @media (min-width: 1200px) {
     body {
       font-size: 22px; } }
@@ -5003,10 +5003,10 @@ body {
   font-size: 18px; }
   @media (min-width: 768px) {
     .fuente-base {
-      font-size: 22px; } }
+      font-size: 19px; } }
   @media (min-width: 992px) {
     .fuente-base {
-      font-size: 22px; } }
+      font-size: 20px; } }
   @media (min-width: 1200px) {
     .fuente-base {
       font-size: 22px; } }
@@ -5338,9 +5338,17 @@ p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, ul + h1, ul + h2, ul + h3, ul + 
   padding-bottom: 30px; }
 
 .seccion--isla--xxl {
-  padding-top: 75px;
-  padding-bottom: 75px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   @media (min-width: 768px) {
+    .seccion--isla--xxl {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media (min-width: 992px) {
+    .seccion--isla--xxl {
+      padding-top: 75px;
+      padding-bottom: 75px; } }
+  @media (min-width: 1200px) {
     .seccion--isla--xxl {
       padding-top: 120px;
       padding-bottom: 120px; } }
@@ -5520,35 +5528,13 @@ p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, ul + h1, ul + h2, ul + h3, ul + 
 .owl-carousel--invertido .owl-dots .owl-dot span {
   border-color: #fff; }
 
-/**
- * Carrusel con paginación interior
- */
-@media (min-width: 768px) and (max-width: 1199px) {
-  .owl-carousel--paginado-interior .owl-controls {
-    position: absolute;
-    bottom: 20px; } }
-@media (min-width: 768px) and (max-width: 1199px) {
-  .owl-carousel--paginado-interior .owl-controls .owl-nav [class*='owl-'] {
-    color: #fff;
-    border-color: #fff; } }
-@media (min-width: 768px) and (max-width: 1199px) {
-  .owl-carousel--paginado-interior .owl-controls .owl-nav [class*='owl-']:hover {
-    background-color: #fff;
-    color: #b2b2b2; } }
-@media (min-width: 1200px) {
-  .owl-carousel--paginado-interior .owl-dots {
-    position: absolute;
-    bottom: 50px; } }
-@media (min-width: 768px) {
-  .owl-carousel--paginado-interior .owl-dots .owl-dot.active span, .owl-carousel--paginado-interior .owl-dots .owl-dot:hover span {
-    background-color: #fff; } }
-@media (min-width: 768px) {
-  .owl-carousel--paginado-interior .owl-dots .owl-dot span {
-    border-color: #fff; } }
-
 /*------------------------------------*\
     #WALL-DRAWING-47
 \*------------------------------------*/
-#wall-drawing-47.fondo--veladura--patron:before {
+#section--wall-drawing-47.fondo--veladura--patron:before {
   opacity: .2;
   background-image: url('../img/wall-drawing-47/patrones/patron-1.png'); }
+
+#section--la-inspiracion.fondo--veladura--patron:before {
+  opacity: 1;
+  background-image: url('../img/wall-drawing-47/patrones/patron-2.png'); }

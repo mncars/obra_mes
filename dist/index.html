@@ -104,7 +104,7 @@
 
         <main>
 	
-	<section id="wall-drawing-47" class="hero hero--centrado-x hero--centrado-y fondo--oscuro fondo--veladura--patron">
+	<section id="section--wall-drawing-47" class="hero hero--centrado-x hero--centrado-y fondo--oscuro fondo--veladura--patron">
 		
 		<div class="hero__contenedor">
 			<div class="container">
@@ -126,11 +126,11 @@
 
 	</section>
 
-	<section id="wall-drawings" class="seccion seccion--isla--xxl">
+	<section id="section--wall-drawings" class="seccion seccion--isla--xxl">
 		<div class="seccion__contenedor">
 			<div class="container">
 
-				<div id="wall-drawings-carousel" class="owl-carousel owl-carousel--paginado-interior">
+				<div id="carousel--wall-drawings" class="owl-carousel">
 					<div><img src="http://lorempixel.com/1440/550/abstract/1"></div>
 					<div><img src="http://lorempixel.com/1440/550/abstract/2"></div>
 					<div><img src="http://lorempixel.com/1440/550/abstract/3"></div>
@@ -162,7 +162,7 @@
 		</div>
 	</section>
 
-	<section class="seccion seccion--isla--xxl fondo--oscuro">
+	<section id="section--la-inspiracion" class="seccion seccion--isla--xxl fondo--oscuro fondo--veladura--patron">
 		<div class="seccion__contenedor">
 			<div class="container">
 				<div class="row">
@@ -175,7 +175,7 @@
 					</div>
 					<div class="col-sm-9 col-sm-pull-3">
 
-						<div id="la-inspiracion-carousel" class="owl-carousel  owl-carousel--invertido">
+						<div id="carousel--la-inspiracion" class="owl-carousel owl-carousel--invertido">
 							<div><img src="http://lorempixel.com/263/263/abstract/4"></div>
 							<div><img src="http://lorempixel.com/263/263/abstract/5"></div>
 							<div><img src="http://lorempixel.com/263/263/abstract/6"></div>
@@ -418,21 +418,21 @@
         <script type="text/javascript">
 
             $(document).ready(function() {
-
-                $('#wall-drawings-carousel').owlCarousel({
+                
+                $('#carousel--wall-drawings').owlCarousel({
                     items: 1,
                     nav: true,
                     navText: [ '<span class="glyphicon glyphicon-menu-left"></span>', '<span class="glyphicon glyphicon-menu-right"></span>' ]
                 })
 
-                $("#la-inspiracion-carousel").owlCarousel({
+                $('#carousel--la-inspiracion').owlCarousel({
                     nav: true,
                     navText: [ '<span class="glyphicon glyphicon-menu-left"></span>', '<span class="glyphicon glyphicon-menu-right"></span>' ],
                     responsive : {
                         0 : {
                             items: 1
                         },
-                        768 : {
+                        480 : {
                             items: 2,
                             margin: 30
                         },

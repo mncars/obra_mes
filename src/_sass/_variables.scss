@@ -76,9 +76,12 @@ $navbar-inverse-toggle-hover-bg:           darken($gray-dark, 3%);
 	Variables propias
 */
 
+$font-size-md-conversor: 	940 / 1140;
+$font-size-sm-conversor: 	720 / 1140;
+
 $font-size-base-lg: 		$font-size-base;
-$font-size-base-md: 		$font-size-base;
-$font-size-base-sm: 		$font-size-base;
+$font-size-base-md: 		20px;
+$font-size-base-sm: 		19px;
 $font-size-base-xs: 		18px;
 
 $font-size-large-lg: 		$font-size-large;
@@ -90,9 +93,6 @@ $font-size-small-lg: 		$font-size-small;
 $font-size-small-md: 		$font-size-small;
 $font-size-small-sm: 		$font-size-small;
 $font-size-small-xs: 		$font-size-small;
-
-$font-size-md-conversor: 	940 / 1140;
-$font-size-sm-conversor: 	720 / 1140;
 
 $font-size-h1-lg: 			$font-size-h1;
 $font-size-h1-md: 			ceil($font-size-h1 * $font-size-md-conversor);
