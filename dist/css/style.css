@@ -1308,7 +1308,7 @@ abbr[title], abbr[data-original-title] {
 blockquote {
   padding: 17.5px 35px;
   margin: 0 0 35px;
-  font-size: 30px;
+  font-size: 27.5px;
   border-left: 5px solid #eeeeee; }
   blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
     margin-bottom: 0; }
@@ -4925,6 +4925,11 @@ button.close {
  * $font-size-blockquote-destacado-sm
  * $font-size-blockquote-destacado-md
  * $font-size-blockquote-destacado-lg
+ *
+ * $font-size-seccion-entradilla-xs 
+ * $font-size-seccion-entradilla-sm 
+ * $font-size-seccion-entradilla-md 
+ * $font-size-seccion-entradilla-lg
  */
 /*------------------------------------*\
     #MIXINS-SPACES
@@ -5196,9 +5201,18 @@ blockquote {
     margin-bottom: 0;
     padding-top: 45px;
     padding-bottom: 45px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center; }
+    @media (min-width: 768px) {
+      blockquote.blockquote--destacado {
+        font-size: 36px; } }
+    @media (min-width: 992px) {
+      blockquote.blockquote--destacado {
+        font-size: 36px; } }
     @media (min-width: 1200px) {
+      blockquote.blockquote--destacado {
+        font-size: 40px; } }
+    @media (min-width: 768px) {
       blockquote.blockquote--destacado {
         max-width: 90%;
         margin-left: auto;
@@ -5472,12 +5486,29 @@ blockquote {
 
 .seccion__grupo-titulos {
   margin-bottom: 15px; }
+  .seccion__grupo-titulos .seccion__titulo, .seccion__grupo-titulos .seccion__subtitulo {
+    margin-bottom: 0; }
 
 .seccion__titulo {
-  margin-bottom: 0; }
+  margin-bottom: 15px; }
 
 .seccion__subtitulo {
-  margin-bottom: 0; }
+  margin-bottom: 15px; }
+
+.seccion__entradilla {
+  margin-bottom: 15px;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #333; }
+  @media (min-width: 768px) {
+    .seccion__entradilla {
+      font-size: 22px; } }
+  @media (min-width: 992px) {
+    .seccion__entradilla {
+      font-size: 24px; } }
+  @media (min-width: 1200px) {
+    .seccion__entradilla {
+      font-size: 26px; } }
 
 /*------------------------------------*\
     #HERO

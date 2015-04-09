@@ -46,12 +46,23 @@
 
 .seccion__grupo-titulos {
 	@include margin-bottom-xs;
+	.seccion__titulo,
+	.seccion__subtitulo {
+		@include no-margin-bottom;
+	}	
 }
 
 .seccion__titulo {
-	@include no-margin-bottom;
+	@include margin-bottom-xs;
 }
 
 .seccion__subtitulo {
-	@include no-margin-bottom;
+	@include margin-bottom-xs;
+}
+
+.seccion__entradilla {
+	@include margin-bottom-xs;
+	@include font-size-seccion-entradilla;
+	line-height: 1.2;
+	color: $headings-color;
 }

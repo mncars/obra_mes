@@ -165,9 +165,9 @@ blockquote {
 	&.blockquote--destacado {
 		@include no-margin-bottom;
 		@include padding-vertical-md;
-		font-size: $blockquote-destacado-font-size;
+		@include font-size-blockquote-destacado;
 		text-align: center;
-		@media (min-width: $screen-lg-min) {
+		@media (min-width: $screen-sm-min) {
 			max-width: 90%;
 			margin-left: auto;
 			margin-right: auto;

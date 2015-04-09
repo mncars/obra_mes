@@ -69,6 +69,11 @@
  * $font-size-blockquote-destacado-sm
  * $font-size-blockquote-destacado-md
  * $font-size-blockquote-destacado-lg
+ *
+ * $font-size-seccion-entradilla-xs 
+ * $font-size-seccion-entradilla-sm 
+ * $font-size-seccion-entradilla-md 
+ * $font-size-seccion-entradilla-lg
  */
 
 @mixin font-size-helper (
@@ -190,4 +195,12 @@
         $font-size-blockquote-destacado-sm, 
         $font-size-blockquote-destacado-md, 
         $font-size-blockquote-destacado-lg);  
+}
+
+@mixin font-size-seccion-entradilla {
+    @include font-size-helper (
+        $font-size-seccion-entradilla-xs, 
+        $font-size-seccion-entradilla-sm, 
+        $font-size-seccion-entradilla-md, 
+        $font-size-seccion-entradilla-lg);  
 }
