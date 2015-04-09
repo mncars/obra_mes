@@ -32,6 +32,7 @@ $gray-darker: 				#222;
 $gray-dark: 				#333;
 $gray:                      #666;
 $gray-light: 				lighten(#777, 8%);
+$gray-lighter: 				#eee;
 
 $brand-primary: 		    #1ABB9C;
 
@@ -192,3 +193,11 @@ $font-size-seccion-entradilla-lg:	26px;
 $font-size-seccion-entradilla-md:	24px;
 $font-size-seccion-entradilla-sm:	22px;
 $font-size-seccion-entradilla-xs:	21px;
+
+$font-size-ladillo-lg: 		150px;
+$font-size-ladillo-md: 		130px;
+$font-size-ladillo-sm: 		120px;
+$font-size-ladillo-xs: 		100px;
+
+$ladillo-max-width: 		360px;
+$ladillo-border-color: 		$gray-lighter;

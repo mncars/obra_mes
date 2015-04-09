@@ -180,3 +180,45 @@ blockquote {
 		}
 	}
 }
+
+/**
+ * Ladillos
+ */
+
+.ladillo {
+	@include margin-bottom-xs;
+	@include padding-vertical-xs;
+	font-family: $font-museo-thin;
+	@include font-size-ladillo;
+	@media (min-width: $screen-sm-min) {
+		max-width: 45%;
+	}
+	@media (min-width: $screen-lg-min) {
+		max-width: $ladillo-max-width;
+	}
+}
+
+.ladillo--izquierda {
+	@media (min-width: $screen-sm-min) {
+		@include margin-right-sm;
+		@include padding-right-sm;
+		float: left;
+		text-align: right;
+		border-right: 1px solid $ladillo-border-color;	
+	}
+	@media (min-width: $screen-lg-min) {
+		margin-left: -115px;
+	}
+}
+
+.ladillo--derecha {
+	@media (min-width: $screen-sm-min) {
+		@include margin-left-xs;
+		@include padding-left-sm;
+		float: right;
+		border-left: 1px solid $ladillo-border-color;
+	}
+	@media (min-width: $screen-lg-min) {
+		margin-right: -100px;
+	}
+}

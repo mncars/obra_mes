@@ -74,6 +74,11 @@
  * $font-size-seccion-entradilla-sm 
  * $font-size-seccion-entradilla-md 
  * $font-size-seccion-entradilla-lg
+
+ * $font-size-ladillo-xs 
+ * $font-size-ladillo-sm 
+ * $font-size-ladillo-md 
+ * $font-size-ladillo-lg
  */
 
 @mixin font-size-helper (
@@ -203,4 +208,12 @@
         $font-size-seccion-entradilla-sm, 
         $font-size-seccion-entradilla-md, 
         $font-size-seccion-entradilla-lg);  
+}
+
+@mixin font-size-ladillo {
+    @include font-size-helper (
+        $font-size-ladillo-xs, 
+        $font-size-ladillo-sm, 
+        $font-size-ladillo-md, 
+        $font-size-ladillo-lg);  
 }
