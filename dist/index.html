@@ -35,13 +35,14 @@
 <meta name="apple-mobile-web-app-title" content="Self Bank">
 -->
 
-<link rel="stylesheet" href="./css/style.css">
-
 <!-- Important Owl stylesheet -->
-<link rel="stylesheet" href="./vendor/owl.carousel/src/css/owl.carousel.css">
+<link rel="stylesheet" href="./vendor/owl.carousel/dist/assets/owl.carousel.min.css">
  
 <!-- Default Theme -->
-<link rel="stylesheet" href="./vendor/owl.carousel/src/css/owl.theme.default.css">
+<link rel="stylesheet" href="./vendor/owl.carousel/dist/assets/owl.theme.default.css">
+
+<!-- Estilos -->
+<link rel="stylesheet" href="./css/style.css">
 
 <!-- Html5 old IE fallback -->
 <!--[if lt IE 9]>
@@ -129,7 +130,7 @@
 		<div class="seccion__contenedor">
 			<div class="container">
 
-				<div id="wall-drawings-carousel" class="owl-carousel">
+				<div id="wall-drawings-carousel" class="owl-carousel owl-carousel--paginado-interior">
 					<div><img src="http://lorempixel.com/1440/550/abstract/1"></div>
 					<div><img src="http://lorempixel.com/1440/550/abstract/2"></div>
 					<div><img src="http://lorempixel.com/1440/550/abstract/3"></div>
@@ -174,7 +175,7 @@
 					</div>
 					<div class="col-sm-9 col-sm-pull-3">
 
-						<div id="la-inspiracion-carousel" class="owl-carousel">
+						<div id="la-inspiracion-carousel" class="owl-carousel  owl-carousel--invertido">
 							<div><img src="http://lorempixel.com/263/263/abstract/4"></div>
 							<div><img src="http://lorempixel.com/263/263/abstract/5"></div>
 							<div><img src="http://lorempixel.com/263/263/abstract/6"></div>
@@ -413,22 +414,33 @@
         <script src="./js/console.js"></script>
         <script src="./vendor/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
         <script src="./vendor/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="./vendor/owl.carousel/src/js/owl.carousel.js"></script>
+        <script src="./vendor/owl.carousel/dist/owl.carousel.min.js"></script>
         <script type="text/javascript">
 
             $(document).ready(function() {
 
-                $("#wall-drawings-carousel").owlCarousel({
-                    //items: 1
-
-                    navigation : true, // Show next and prev buttons
-                      slideSpeed : 300,
-                      paginationSpeed : 400,
-                      singleItem:true
-                });
+                $('#wall-drawings-carousel').owlCarousel({
+                    items: 1,
+                    nav: true,
+                    navText: [ '<span class="glyphicon glyphicon-menu-left"></span>', '<span class="glyphicon glyphicon-menu-right"></span>' ]
+                })
 
                 $("#la-inspiracion-carousel").owlCarousel({
-                    items: 3
+                    nav: true,
+                    navText: [ '<span class="glyphicon glyphicon-menu-left"></span>', '<span class="glyphicon glyphicon-menu-right"></span>' ],
+                    responsive : {
+                        0 : {
+                            items: 1
+                        },
+                        768 : {
+                            items: 2,
+                            margin: 30
+                        },
+                        992 : {
+                            items: 3,
+                            margin: 30
+                        }
+                    }
                 });
 
             });

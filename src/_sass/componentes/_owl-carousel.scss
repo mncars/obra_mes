@@ -2,6 +2,173 @@
     #OWL-CAROUSEL
 \*------------------------------------*/
 
-.owl-carousel {
+/**
+ * Sobreescribimos varias reglas del archivo 'owl.theme.default.css' y
+ * añadimos varias clases para extender el componente owl-carousel.
+ */
+
+.owl-theme {
+	text-align: center;
 	@include margin-bottom-sm;
+	.owl-controls {
+		margin-top: 20px;
+		position: relative;
+		display: inline-block;
+		@media (min-width: $screen-lg-min) {
+			position: static;
+		}
+	}
+}
+
+/**
+ * Navegación
+ */
+
+.owl-theme {
+	.owl-controls {
+		.owl-nav {
+			[class*='owl-'] {
+				@include size(30px, 30px);
+				margin: auto;
+				@include no-padding;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				color: $carousel-color-por-defecto;
+				background-color: transparent;
+				border-radius: 100%;
+				border: 2px solid $carousel-color-por-defecto;
+				@include transition(all 200ms ease-out);
+				@media (min-width: $screen-lg-min) {
+					@include size(60px, 60px);	
+					margin: auto;
+					bottom: 60px;
+					border-width: 3px;
+				}
+				&:hover {
+					background-color: $carousel-color-por-defecto;
+					color: $carousel-color-invertido;
+				}
+				.glyphicon {
+					@include center;
+					font-size: 12px;
+					@media (min-width: $screen-lg-min) {
+						font-size: 24px;
+					}
+				}
+			}
+			.owl-prev {
+				left: -35px;
+				@media (min-width: $screen-lg-min) {
+					left: -90px;
+				}
+			}
+
+			.owl-next {
+				right: -35px;
+				@media (min-width: $screen-lg-min) {
+					right: -90px;
+				}
+			}
+		}
+	}
+}
+
+/**
+ * Paginación
+ */
+
+ .owl-theme {
+ 	.owl-dots {
+		position: relative;
+	  	line-height: 15px;
+	  	.owl-dot {
+	  		&.active span,
+			&:hover span {
+				background-color: $carousel-color-por-defecto;
+			}
+	  		span {
+				@include size(15px, 15px);
+				margin: 0 5px;
+				background-color: transparent;
+				border: 2px solid $carousel-color-por-defecto;
+			}
+		}
+	}
+}
+
+/**
+ * Carrusel con colores invertidos
+ */
+
+.owl-carousel--invertido {
+	.owl-controls {
+		.owl-nav {
+			[class*='owl-'] {
+				color: $carousel-color-invertido;
+				border-color: $carousel-color-invertido;
+				&:hover {
+					background-color: $carousel-color-invertido;
+					color: $carousel-color-por-defecto;	
+				}
+			}
+		}
+	}
+	.owl-dots {
+		.owl-dot {
+			&.active span,
+			&:hover span {
+				background-color: $carousel-color-invertido;
+			}
+			span {
+				border-color: $carousel-color-invertido;
+			}
+		}
+	}
+} 
+
+/**
+ * Carrusel con paginación interior
+ */
+
+.owl-carousel--paginado-interior {
+	.owl-controls {
+		@media (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+			position: absolute;
+			bottom: 20px;
+		}
+		.owl-nav {
+			[class*='owl-'] {
+				@media (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+					color: $carousel-color-invertido;
+					border-color: $carousel-color-invertido;
+				}
+				&:hover {
+					@media (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+						background-color: $carousel-color-invertido;
+						color: $carousel-color-por-defecto;	
+					}
+				}
+			}
+		}
+	}
+	.owl-dots {
+		@media (min-width: $screen-lg-min) {
+			position: absolute;
+			bottom: 50px;
+		}
+		.owl-dot {
+			&.active span,
+			&:hover span {
+				@media (min-width: $screen-sm-min) {
+					background-color: $carousel-color-invertido;
+				}
+			}
+			span {
+				@media (min-width: $screen-sm-min) {
+					border-color: $carousel-color-invertido;
+				}
+			}
+		}
+	}
 }

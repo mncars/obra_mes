@@ -17,9 +17,8 @@
     },
     "owl.carousel": {
       "main": [
-        "src/js/owl.carousel.js",
-        "src/css/owl.carousel.css",
-        "src/css/owl.theme.default.css"
+        "dist/**/*",
+        "dist/assets/**/*"
       ]
     },
     "modernizr": {

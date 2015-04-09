@@ -39,13 +39,13 @@ $text-color: 				$gray;
 
 $font-family-sans-serif: 	$font-museo-thin;
 
-$font-size-base: 			23px;
+$font-size-base: 			22px;
 $font-size-large:         	28px;
 $font-size-small:         	12px;
 
 $font-size-h1:            	60px;
-$font-size-h2:            	48px;
-$font-size-h3:            	44px;
+$font-size-h2:            	42px;
+$font-size-h3:            	38px;
 $font-size-h4:            	28px;
 $font-size-h5:            	24px;
 $font-size-h6:            	20px;
@@ -170,3 +170,6 @@ $font-size-hero-subtitulo-xs: 		36px;
 
 $font-family-hero-titulo: 			$font-museo-bold;
 $font-family-hero-subtitulo: 		$font-museo-thin;
+
+$carousel-color-por-defecto: 	lighten($gray-light, 15%);
+$carousel-color-invertido: 		#fff;
