@@ -72,6 +72,7 @@ h3,
 .h3 {
 	@include font-size-h3;
 	font-family: $font-family-h3;
+	line-height: 1.215;
 }
 
 h4,

@@ -10,6 +10,10 @@
 	@include padding-vertical-sm;
 }
 
+.seccion--isla--md {
+	@include padding-vertical-md;
+}
+
 .seccion--isla--xxl {
 	@include padding-vertical-lg;
 	@media (min-width: $screen-sm-min) {
@@ -44,6 +48,12 @@
 	text-align: center;
 }
 
+.seccion__cabecera--derecha {
+	@media (min-width: $screen-sm-min) {
+		text-align: right;
+	}
+}
+
 .seccion__grupo-titulos {
 	@include margin-bottom-xs;
 	.seccion__titulo,
@@ -64,5 +74,5 @@
 	@include margin-bottom-xs;
 	@include font-size-seccion-entradilla;
 	line-height: 1.2;
-	color: $headings-color;
+	//color: $headings-color;
 }
