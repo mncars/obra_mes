@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #ISLA
+\*------------------------------------*/
+
+.isla--sm {
+	@include padding-sm;
+}
+
+.isla--bloque {
+	@include margin-bottom-sm;
+}
+
+/**
+ * Contenedor auxiliar para que el contenido se superponga correctamente al
+ * fondo.
+ */
+
+.isla__contenedor {
+	position: relative;
+	> :last-child{
+    	@include no-margin;
+  	}
+}

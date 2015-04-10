@@ -2,20 +2,3 @@
     #WALL-DRAWING-47
 \*------------------------------------*/
 
-#section--wall-drawing-47 {
-	&.fondo--veladura--patron {
-		&:before {
-			opacity: .2;
-			background-image: url('../img/wall-drawing-47/patrones/patron-1.png');
-		}
-	}
-}
-
-#section--la-inspiracion {
-	&.fondo--veladura--patron {
-		&:before {
-			opacity: 1;
-			background-image: url('../img/wall-drawing-47/patrones/patron-2.png');
-		}
-	}
-}

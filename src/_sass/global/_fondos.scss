@@ -86,6 +86,20 @@
 	}
 }
 
+.fondo--veladura--patron--1 {
+	&:before {
+		opacity: .2;
+		background-image: url('../img/wall-drawing-47/patrones/patron-1.png');
+	}
+}
+
+.fondo--veladura--patron--2 {
+	&:before {
+		opacity: 1;
+		background-image: url('../img/wall-drawing-47/patrones/patron-2.png');
+	}
+}
+
 /**
  * Imagenes de fondo
  */
