@@ -6,6 +6,13 @@
 	@include padding-sm;
 }
 
+.isla--md {
+	@include padding-sm;
+	@media (min-width: $screen-sm-min) {
+		@include padding-md;
+	}
+}
+
 .isla--bloque {
 	@include margin-bottom-sm;
 }

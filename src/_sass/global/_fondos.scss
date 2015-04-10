@@ -17,6 +17,13 @@
  * Colores de fondo
  */
 
+.fondo--blanco {
+	&,
+	&:before {
+		background-color: #fff;
+	}
+}
+
 .fondo--claro {
 	&,
 	&:before {
