@@ -50,3 +50,14 @@
 		}
 	}
 }
+
+/**
+ * Cambio la maquetación de .btn--redondeado para IE8
+ */
+
+.lt-ie9 .btn--redondeado {
+	.glyphicon {
+		top: 30%;
+ 		left: 0;
+	}
+}

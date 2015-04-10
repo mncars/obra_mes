@@ -31,3 +31,20 @@
 	@include font-size-hero-subtitulo;
 	font-family: $font-family-hero-subtitulo;
 }
+
+/**
+ * Cambio la maquetación de .hero--centrado-y para IE8
+ */
+
+.lt-ie9 .hero--centrado-y {
+	.hero__contenedor {
+ 		top: 60px;
+ 		left: 0;
+ 		@media (min-width: $screen-sm-min) {
+ 			top: 120px;
+ 		}
+ 		@media (min-width: $screen-lg-min) {
+ 			top: 150px;
+ 		}
+ 	}	
+}
