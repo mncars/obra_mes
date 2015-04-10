@@ -2,34 +2,10 @@
     #SECCION
 \*------------------------------------*/
 
-.seccion--bloque {
-	@include margin-bottom-lg;
-}
-
-.seccion--isla--sm {
-	@include padding-vertical-sm;
-}
-
-.seccion--isla--md {
-	@include padding-vertical-md;
-}
-
-.seccion--isla--xxl {
-	@include padding-vertical-lg;
-	@media (min-width: $screen-sm-min) {
-		@include padding-vertical-lg;
-	}
-	@media (min-width: $screen-md-min) {
-		@include padding-vertical-xl;
-	}
-	@media (min-width: $screen-lg-min) {
-		@include padding-vertical-xxl;
-	}
-}
-
 /**
- * Contenedor auxiliar para que el contenido se superponga correctamente al
- * fondo.
+ * Si queremos añadirle clases para personalizar el fondo, es necesario
+ * incluir un hijo 'div.seccion__contenedor' para que los elementos se posicionen
+ * correctamente en el eje Z.
  */
 
 .seccion__contenedor {
@@ -74,5 +50,4 @@
 	@include margin-bottom-xs;
 	@include font-size-seccion-entradilla;
 	line-height: 1.2;
-	//color: $headings-color;
 }

@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    #ISLA
+\*------------------------------------*/
+
+/**
+ * Creado a partir de la idea original de Harry Roberts 
+ * http://csswizardry.com/2011/10/the-island-object/. Esta abstracción la 
+ * utilizamos para controlar los espacios en blanco de los elementos, 
+ * utilizando las propiedades 'margin' y 'padding' y nuestra escala de 
+ * espacios (mixins/_spaces.scss).
+ */
+
+/**
+ * Clases con el mismo espacio interior en los ejes X e Y.
+ */
+
+.isla--sm {
+	@include padding-sm;
+}
+
+.isla--md {
+	@include padding-sm;
+	@media (min-width: $screen-sm-min) {
+		@include padding-md;
+	}
+}
+
+/**
+ * Clases con valores diferentes en los ejes X e Y.
+ * Ejemplo: 	isla--0-xs
+ * 				Eje X: 0
+ * 				Eje Y: xs
+ */
+
+.isla--0-xs {
+	@include padding-vertical-xs;
+}
+
+.isla--0-sm {
+	@include padding-vertical-sm;
+}
+
+.isla--0-md {
+	@include padding-vertical-md;
+}
+
+.isla--0-xxl {
+	@include padding-vertical-lg;
+	@media (min-width: $screen-sm-min) {
+		@include padding-vertical-lg;
+	}
+	@media (min-width: $screen-md-min) {
+		@include padding-vertical-xl;
+	}
+	@media (min-width: $screen-lg-min) {
+		@include padding-vertical-xxl;
+	}
+}
+
+.isla--xs-lg {
+	@include padding-horizontal-xs;
+	@include padding-vertical-lg;
+}
+
+/**
+ * Para que un elemento '.isla' tenga margen inferior, utilizamos las 
+ * siguientes clases. 
+ */
+
+.isla--bloque--xs {
+	@include margin-bottom-xs;
+}
+
+.isla--bloque--sm {
+	@include margin-bottom-sm;
+}
+
+.isla--bloque--md {
+	@include margin-bottom-md;
+}
+
+.isla--bloque--lg {
+	@include margin-bottom-lg;
+}
+
+/**
+ * Si queremos añadirle clases para personalizar el fondo, es necesario
+ * incluir un hijo 'div.isla__contenedor' para que los elementos se posicionen
+ * correctamente en el eje Z.
+ */
+
+.isla__contenedor {
+	position: relative;
+	> :last-child{
+    	@include no-margin;
+  	}
+}

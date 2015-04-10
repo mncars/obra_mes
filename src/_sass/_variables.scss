@@ -34,7 +34,8 @@ $gray:                      #666;
 $gray-light: 				lighten(#777, 8%);
 $gray-lighter: 				#eee;
 
-$brand-primary: 		    #1ABB9C;
+//$brand-primary: 		    #1ABB9C;
+$brand-primary: 			#71D2FC;
 
 $text-color: 				$gray;
 
@@ -42,7 +43,7 @@ $font-family-sans-serif: 	$font-museo-thin;
 
 $font-size-base: 			22px;
 $font-size-large:         	28px;
-$font-size-small:         	12px;
+$font-size-small:         	18px;
 
 $font-size-h1:            	60px;
 $font-size-h2:            	42px;
@@ -58,6 +59,9 @@ $headings-color:          	$gray-dark;
 
 $bootstrap-sass-asset-helper:		(twbs-font-path("") != unquote('twbs-font-path("")')) !default;
 $icon-font-path: 					if($bootstrap-sass-asset-helper, "bootstrap/", "../vendor/bootstrap-sass-official/assets/fonts/bootstrap/") !default;
+
+$component-active-color:    #fff;
+$component-active-bg:       $brand-primary;
 
 $navbar-height:                    70px;
 $navbar-margin-bottom:             0;
@@ -91,9 +95,9 @@ $font-size-large-sm: 		$font-size-large;
 $font-size-large-xs: 		20px;
 
 $font-size-small-lg: 		$font-size-small;
-$font-size-small-md: 		$font-size-small;
-$font-size-small-sm: 		$font-size-small;
-$font-size-small-xs: 		$font-size-small;
+$font-size-small-md: 		16px;
+$font-size-small-sm: 		$font-size-small-md;
+$font-size-small-xs: 		14px;
 
 $font-size-h1-lg: 			$font-size-h1;
 $font-size-h1-md: 			ceil($font-size-h1 * $font-size-md-conversor);
@@ -172,8 +176,8 @@ $font-size-hero-subtitulo-xs: 		36px;
 $font-family-hero-titulo: 			$font-museo-bold;
 $font-family-hero-subtitulo: 		$font-museo-thin;
 
-$carousel-color-por-defecto: 	lighten($gray-light, 15%);
-$carousel-color-invertido: 		#fff;
+$btn-transparente-color-por-defecto: 		lighten($gray-light, 15%);
+$btn-transparente-color-invertido: 			#fff;
 
 $blockquote-line-height: 			1.2;
 $blockquote-color: 					$headings-color;

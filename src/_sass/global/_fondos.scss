@@ -122,9 +122,26 @@
 }
 
 .fondo--imagen--arriba {
-	background-position: top;
+	background-position: center top;
 }
 
 .fondo--imagen--abajo {
-	background-position: botttom;
+	background-position: center bottom;
+}
+
+.fondo--imagen--izquierda,
+.fondo--imagen--derecha {
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	@media (max-width: $screen-xs-max) {
+		background-image: none!important;
+	}
+}
+
+.fondo--imagen--izquierda {
+	background-position: left center;
+}
+
+.fondo--imagen--derecha {
+	background-position: right center;
 }

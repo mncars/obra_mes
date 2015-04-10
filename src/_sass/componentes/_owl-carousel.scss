@@ -34,10 +34,10 @@
 				position: absolute;
 				top: 0;
 				bottom: 0;
-				color: $carousel-color-por-defecto;
+				color: $btn-transparente-color-por-defecto;
 				background-color: transparent;
 				border-radius: 100%;
-				border: 2px solid $carousel-color-por-defecto;
+				border: 2px solid $btn-transparente-color-por-defecto;
 				@include transition(all 200ms ease-out);
 				@media (min-width: $screen-lg-min) {
 					@include size(60px, 60px);	
@@ -46,8 +46,9 @@
 					border-width: 3px;
 				}
 				&:hover {
-					background-color: $carousel-color-por-defecto;
-					color: $carousel-color-invertido;
+					color: $component-active-color;
+					background-color: $component-active-bg;
+					border-color: $component-active-bg;
 				}
 				.glyphicon {
 					@include center;
@@ -83,15 +84,20 @@
 		position: relative;
 	  	line-height: 15px;
 	  	.owl-dot {
-	  		&.active span,
+	  		&.active span {
+	  			background-color: $btn-transparente-color-por-defecto;
+				border-color: $btn-transparente-color-por-defecto;
+				
+			}
 			&:hover span {
-				background-color: $carousel-color-por-defecto;
+				background-color: $component-active-bg;
+				border-color: $component-active-bg;
 			}
 	  		span {
 				@include size(15px, 15px);
 				margin: 0 5px;
 				background-color: transparent;
-				border: 2px solid $carousel-color-por-defecto;
+				border: 2px solid $btn-transparente-color-por-defecto;
 			}
 		}
 	}
@@ -105,23 +111,28 @@
 	.owl-controls {
 		.owl-nav {
 			[class*='owl-'] {
-				color: $carousel-color-invertido;
-				border-color: $carousel-color-invertido;
+				color: $btn-transparente-color-invertido;
+				border-color: $btn-transparente-color-invertido;
 				&:hover {
-					background-color: $carousel-color-invertido;
-					color: $carousel-color-por-defecto;	
+					color: $component-active-color;
+					background-color: $component-active-bg;
+					border-color: $component-active-bg;	
 				}
 			}
 		}
 	}
 	.owl-dots {
 		.owl-dot {
-			&.active span,
+			&.active span {
+				background-color: $btn-transparente-color-invertido;
+				border-color: $btn-transparente-color-invertido;
+			}
 			&:hover span {
-				background-color: $carousel-color-invertido;
+				background-color: $component-active-bg;
+				border-color: $component-active-bg;
 			}
 			span {
-				border-color: $carousel-color-invertido;
+				border-color: $btn-transparente-color-invertido;
 			}
 		}
 	}
