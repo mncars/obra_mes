@@ -1,3 +1,7 @@
+/*------------------------------------*\
+		#TABLE-GRID
+\*------------------------------------*/
+
 /*!
  * table-grid (http://mdo.github.io/table-grid)
  * Released under MIT, (c) 2014 Mark Otto
@@ -9,40 +13,40 @@
  */
 
 @media (min-width: $screen-sm-min) {
-  /* Add `.grid` for the table */
-  .grid {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-  }
+ 	/* Add `.grid` for the table */
+ 	.grid {
+ 		display: table;
+ 		width: 100%;
+ 		table-layout: fixed;
+ 	}
 
-  /* Add `.col` for the table cells, or columns */
-  .col {
-    display: table-cell;
-  }
+ 	/* Add `.col` for the table cells, or columns */
+ 	.col {
+ 		display: table-cell;
+ 	}
 
-  /* Set the widths */
-  .col-1 { width: 8.333333%; }
-  .col-2 { width: 16.666667%; }
-  .col-3 { width: 25%; }
-  .col-4 { width: 33.333333%; }
-  .col-5 { width: 41.666667%; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.333333%; }
-  .col-8 { width: 66.666667%; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.333333%; }
-  .col-11 { width: 91.666667%; }
-  .col-12 { width: 100%; }
+ 	/* Set the widths */
+ 	.col-1 { width: 8.333333%; }
+ 	.col-2 { width: 16.666667%; }
+ 	.col-3 { width: 25%; }
+ 	.col-4 { width: 33.333333%; }
+ 	.col-5 { width: 41.666667%; }
+ 	.col-6 { width: 50%; }
+ 	.col-7 { width: 58.333333%; }
+ 	.col-8 { width: 66.666667%; }
+ 	.col-9 { width: 75%; }
+ 	.col-10 { width: 83.333333%; }
+ 	.col-11 { width: 91.666667%; }
+ 	.col-12 { width: 100%; }
 
-  /* Padded columns */
-  .grid-padded {
-    margin-left:  -1rem;
-    margin-right: -1rem;
-  }
-  .grid-padded .grid {
-    border-spacing: 1rem 0;
-  }
+ 	/* Padded columns */
+ 	.grid-padded {
+ 		margin-left:  -1rem;
+ 		margin-right: -1rem;
+ 	}
+ 	.grid-padded .grid {
+ 		border-spacing: 1rem 0;
+ 	}
 }
 
 
@@ -53,5 +57,39 @@
  */
 
 .grid-align-middle .col {
-  vertical-align: middle;
+	vertical-align: middle;
+}
+
+/**
+ * Añado una clase para utilizar esta rejilla también en pantallas pequeñas.
+ */
+
+.grid--xs {
+	@media (max-width: $screen-xs-max) {
+	 	display: table;
+	 	width: 100%;
+	 	table-layout: fixed;
+	 	.col {
+	 		display: table-cell;
+	 	}
+	 	.col-1 { width: 8.333333%; }
+	 	.col-2 { width: 16.666667%; }
+	 	.col-3 { width: 25%; }
+	 	.col-4 { width: 33.333333%; }
+	 	.col-5 { width: 41.666667%; }
+	 	.col-6 { width: 50%; }
+	 	.col-7 { width: 58.333333%; }
+	 	.col-8 { width: 66.666667%; }
+	 	.col-9 { width: 75%; }
+	 	.col-10 { width: 83.333333%; }
+	 	.col-11 { width: 91.666667%; }
+	 	.col-12 { width: 100%; }
+	 	.grid-padded {
+	 		margin-left:  -1rem;
+	 		margin-right: -1rem;
+	 	}
+	 	.grid-padded .grid {
+	 		border-spacing: 1rem 0;
+	 	}
+	}
 }

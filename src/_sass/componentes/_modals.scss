@@ -1,0 +1,19 @@
+/*------------------------------------*\
+	#MODALS
+\*------------------------------------*/
+
+/**
+ * Sobreescribimos algunas reglas del componente Modals de Bootstrap.
+ */
+
+.modal-content {
+	border: none;
+	border-radius: 0;
+}
+
+.modal-header .close {
+	margin-top: -7px;
+	@media (min-width: $screen-lg-min) {
+		margin-top: -2px;
+	}
+}

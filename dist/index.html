@@ -92,7 +92,7 @@
 						<a href="">Paragraphs on conceptual art</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#modal-compartir-1">
 							<span class="glyphicon glyphicon-share" aria-hidden="true"></span> Compartir</span>
 						</a>
 					</li>
@@ -100,6 +100,37 @@
 			</div>
 		</div>
 	</nav>
+	<!-- Modal -->
+	<div class="modal fade" id="modal-compartir-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Compartir</h4>
+					</div>
+					<img src="http://placehold.it/600x338" class="img-responsive">
+					<div class="grid grid--xs">
+						<div class="col">
+							<a href="" class="btn btn-lg btn-block btn--icono btn--rectangular btn--facebook">
+								<span class="btn__icono btn--facebook__icono">Facebook</span>
+							</a>
+						</div>
+						<div class="col">
+							<a href="" class="btn btn-lg btn-block btn--icono btn--rectangular btn--twitter">
+								<span class="btn__icono btn--twitter__icono">Twitter</span>
+							</a>
+						</div>
+						<div class="col">
+							<a href="" class="btn btn-lg btn-block btn--icono btn--rectangular btn--google-plus">
+								<span class="btn__icono btn--google-plus__icono">Google +</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 
         <main>
@@ -469,6 +500,7 @@
         <script src="./js/console.js"></script>
         <script src="./vendor/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
         <script src="./vendor/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+        <script src="./vendor/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
         <script src="./vendor/owl.carousel/dist/owl.carousel.min.js"></script>
         <script type="text/javascript">
 

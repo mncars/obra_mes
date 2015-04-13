@@ -77,6 +77,11 @@ $navbar-inverse-link-color:        $gray-light;
 $navbar-inverse-toggle-border-color:       transparent;
 $navbar-inverse-toggle-hover-bg:           darken($gray-dark, 3%);
 
+$modal-inner-padding: 					0;
+$modal-title-padding:         			15px;
+$modal-title-line-height:     			1.2;
+$modal-header-border-color:   			transparent;
+
 /*
 	Variables propias
 */
@@ -207,3 +212,7 @@ $font-size-ladillo-xs: 		100px;
 
 $ladillo-max-width: 		360px;
 $ladillo-border-color: 		$gray-lighter;
+
+$btn-facebook-bg: 			#3b5998;
+$btn-twitter-bg: 			#00acee;
+$btn-google-plus-bg: 		#dd4b39;

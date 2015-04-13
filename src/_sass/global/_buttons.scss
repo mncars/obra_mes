@@ -2,6 +2,9 @@
 	#BUTTONS
 \*------------------------------------*/
 
+/**
+ * Botones transparentes
+ */
 
 .btn--transparente {
 	&--por-defecto,
@@ -49,6 +52,55 @@
 			}
 		}
 	}
+}
+
+/**
+ * Botones rectangulares
+ */
+
+.btn--rectangular {
+	border: none;
+	border-radius: 0;
+}
+
+/**
+ * Botones con iconos propios
+ */
+
+.btn--icono {
+	line-height: 1;
+}
+
+/**
+ * Botones Redes sociales
+ */
+
+.btn--facebook {
+	background-color: $btn-facebook-bg;
+}
+
+.btn--twitter {
+	background-color: $btn-twitter-bg;
+}
+
+.btn--google-plus {
+	background-color: $btn-google-plus-bg;
+}
+
+.btn__icono {
+	display: inline-block;
+}
+
+.btn--facebook__icono {
+	@include spriteReplace (sprite1, 0, 2, 12px, 24px);
+}
+
+.btn--twitter__icono {
+	@include spriteReplace (sprite1, 1, 2, 18px, 24px);
+}
+
+.btn--google-plus__icono {
+	@include spriteReplace (sprite1, 2, 2, 24px, 24px);
 }
 
 /**

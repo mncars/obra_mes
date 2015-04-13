@@ -4246,24 +4246,24 @@ button.close {
 
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
-  min-height: 16.6px; }
+  border-bottom: 1px solid transparent;
+  min-height: 16.2px; }
 
 .modal-header .close {
   margin-top: -2px; }
 
 .modal-title {
   margin: 0;
-  line-height: 1.6; }
+  line-height: 1.2; }
 
 .modal-body {
   position: relative;
-  padding: 15px; }
+  padding: 0; }
 
 .modal-footer {
-  padding: 15px;
+  padding: 0;
   text-align: right;
-  border-top: 1px solid #e5e5e5; }
+  border-top: 1px solid transparent; }
   .modal-footer:before, .modal-footer:after {
     content: " ";
     display: table; }
@@ -4995,6 +4995,9 @@ body {
     body {
       font-size: 22px; } }
 
+/*------------------------------------*\
+		#TABLE-GRID
+\*------------------------------------*/
 /*!
  * table-grid (http://mdo.github.io/table-grid)
  * Released under MIT, (c) 2014 Mark Otto
@@ -5050,6 +5053,46 @@ body {
  */
 .grid-align-middle .col {
   vertical-align: middle; }
+
+/**
+ * Añado una clase para utilizar esta rejilla también en pantallas pequeñas.
+ */
+@media (max-width: 767px) {
+  .grid--xs {
+    display: table;
+    width: 100%;
+    table-layout: fixed; }
+    .grid--xs .col {
+      display: table-cell; }
+    .grid--xs .col-1 {
+      width: 8.333333%; }
+    .grid--xs .col-2 {
+      width: 16.666667%; }
+    .grid--xs .col-3 {
+      width: 25%; }
+    .grid--xs .col-4 {
+      width: 33.333333%; }
+    .grid--xs .col-5 {
+      width: 41.666667%; }
+    .grid--xs .col-6 {
+      width: 50%; }
+    .grid--xs .col-7 {
+      width: 58.333333%; }
+    .grid--xs .col-8 {
+      width: 66.666667%; }
+    .grid--xs .col-9 {
+      width: 75%; }
+    .grid--xs .col-10 {
+      width: 83.333333%; }
+    .grid--xs .col-11 {
+      width: 91.666667%; }
+    .grid--xs .col-12 {
+      width: 100%; }
+    .grid--xs .grid-padded {
+      margin-left: -1rem;
+      margin-right: -1rem; }
+    .grid--xs .grid-padded .grid {
+      border-spacing: 1rem 0; } }
 
 /*------------------------------------*\
     #TYPE
@@ -5347,6 +5390,9 @@ blockquote {
 /*------------------------------------*\
 	#BUTTONS
 \*------------------------------------*/
+/**
+ * Botones transparentes
+ */
 .btn--transparente--por-defecto, .btn--transparente--invertido {
   border-width: 3px;
   background-color: transparent;
@@ -5389,6 +5435,67 @@ blockquote {
     @media (min-width: 1200px) {
       .btn--redondeado.btn-lg .glyphicon, .btn-group-lg > .btn--redondeado.btn .glyphicon {
         font-size: 30px; } }
+
+/**
+ * Botones rectangulares
+ */
+.btn--rectangular {
+  border: none;
+  border-radius: 0; }
+
+/**
+ * Botones con iconos propios
+ */
+.btn--icono {
+  line-height: 1; }
+
+/**
+ * Botones Redes sociales
+ */
+.btn--facebook {
+  background-color: #3b5998; }
+
+.btn--twitter {
+  background-color: #00acee; }
+
+.btn--google-plus {
+  background-color: #dd4b39; }
+
+.btn__icono {
+  display: inline-block; }
+
+.btn--facebook__icono {
+  background-position-x: -0px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprites/sprite1.svg");
+  text-indent: -999em;
+  letter-spacing: -999em;
+  overflow: hidden;
+  width: 12px;
+  height: 24px; }
+
+.btn--twitter__icono {
+  background-position-x: -50px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprites/sprite1.svg");
+  text-indent: -999em;
+  letter-spacing: -999em;
+  overflow: hidden;
+  width: 18px;
+  height: 24px; }
+
+.btn--google-plus__icono {
+  background-position-x: -100px;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprites/sprite1.svg");
+  text-indent: -999em;
+  letter-spacing: -999em;
+  overflow: hidden;
+  width: 24px;
+  height: 24px; }
 
 /**
  * Cambio la maquetación de .btn--redondeado para IE8
@@ -5671,6 +5778,22 @@ blockquote {
   @media (min-width: 768px) {
     .navbar-inverse .navbar-collapse {
       background-color: transparent; } }
+
+/*------------------------------------*\
+	#MODALS
+\*------------------------------------*/
+/**
+ * Sobreescribimos algunas reglas del componente Modals de Bootstrap.
+ */
+.modal-content {
+  border: none;
+  border-radius: 0; }
+
+.modal-header .close {
+  margin-top: -7px; }
+  @media (min-width: 1200px) {
+    .modal-header .close {
+      margin-top: -2px; } }
 
 /*------------------------------------*\
     #SECCION
