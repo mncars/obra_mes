@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #MARGENES
+\*------------------------------------*/
+
+.sin-margen {
+	@include no-margin-bottom;
+}
+
+.margen-muy-pequeno {
+	@include margin-bottom-xs;
+}
+
+.margen-pequeno {
+	@include margin-bottom-sm;
+}
+
+.margen-mediano {
+	@include margin-bottom-md;
+}
+
+.margen-largo {
+	@include margin-bottom-lg;
+}
+
+.margen-muy-largo {
+	@include margin-bottom-xl;
+}

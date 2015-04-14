@@ -77,6 +77,10 @@
 		&:hover {
 			text-decoration: underline;
 		}
+		&:focus {
+			outline: invert none medium;
+  			outline-offset: 0;
+		}
 	}
 }
 

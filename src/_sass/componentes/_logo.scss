@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+
+.logo {
+	display: inline-block;
+}
+
+.logo--sm {
+	@include spriteReplace (sprite1, 3, 3, 100px, 50px);
+}
+
+/**
+ * Sustituimos el archivo .svg del sprite por un .png para IE8.
+ */
+
+.lt-ie9 .logo {
+	@include spritePNG (sprite1);
+}

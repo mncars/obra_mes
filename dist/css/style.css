@@ -5388,6 +5388,27 @@ blockquote {
     margin-right: -100px; } }
 
 /*------------------------------------*\
+    #MARGENES
+\*------------------------------------*/
+.sin-margen {
+  margin-bottom: 0; }
+
+.margen-muy-pequeno {
+  margin-bottom: 15px; }
+
+.margen-pequeno {
+  margin-bottom: 30px; }
+
+.margen-mediano {
+  margin-bottom: 45px; }
+
+.margen-largo {
+  margin-bottom: 60px; }
+
+.margen-muy-largo {
+  margin-bottom: 75px; }
+
+/*------------------------------------*\
 	#BUTTONS
 \*------------------------------------*/
 /**
@@ -5768,6 +5789,9 @@ blockquote {
       padding-bottom: 29px; } }
   .navbar-nav > li > a:hover {
     text-decoration: underline; }
+  .navbar-nav > li > a:focus {
+    outline: invert none medium;
+    outline-offset: 0; }
 
 .navbar-collapse {
   border: none;
@@ -6023,3 +6047,26 @@ blockquote {
 .avatar {
   text-align: center;
   margin-bottom: 30px; }
+
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+.logo {
+  display: inline-block; }
+
+.logo--sm {
+  background-position-x: -150px;
+  background-position-y: -150px;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprites/sprite1.svg");
+  text-indent: -999em;
+  letter-spacing: -999em;
+  overflow: hidden;
+  width: 100px;
+  height: 50px; }
+
+/**
+ * Sustituimos el archivo .svg del sprite por un .png para IE8.
+ */
+.lt-ie9 .logo {
+  background-image: url("../img/sprites/sprite1.png"); }
