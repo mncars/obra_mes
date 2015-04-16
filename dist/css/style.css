@@ -4952,7 +4952,7 @@ button.close {
  * $space-unit-xxxs
  */
 /*------------------------------------*\
-	#MIXINS-SPRITES
+    #MIXINS-SPRITES
 \*------------------------------------*/
 /**
  * Definimos los nombres de sprites, sus rutas y sus tamaños de cuadrícula.
@@ -5323,8 +5323,7 @@ blockquote {
         margin-left: auto;
         margin-right: auto; } }
     blockquote.blockquote--destacado:before {
-      background-position-x: -300px;
-      background-position-y: -0px;
+      background-position: -300px 0px;
       background-repeat: no-repeat;
       background-image: url("../img/sprites/sprite1.svg");
       display: inline-block;
@@ -5332,8 +5331,7 @@ blockquote {
       width: 103px;
       height: 80px; }
     blockquote.blockquote--destacado:after {
-      background-position-x: -450px;
-      background-position-y: -0px;
+      background-position: -450px 0px;
       background-repeat: no-repeat;
       background-image: url("../img/sprites/sprite1.svg");
       display: inline-block;
@@ -5486,8 +5484,7 @@ blockquote {
   display: inline-block; }
 
 .btn--facebook__icono {
-  background-position-x: -0px;
-  background-position-y: -100px;
+  background-position: 0px -100px;
   background-repeat: no-repeat;
   background-image: url("../img/sprites/sprite1.svg");
   text-indent: -999em;
@@ -5497,8 +5494,7 @@ blockquote {
   height: 24px; }
 
 .btn--twitter__icono {
-  background-position-x: -50px;
-  background-position-y: -100px;
+  background-position: -50px -100px;
   background-repeat: no-repeat;
   background-image: url("../img/sprites/sprite1.svg");
   text-indent: -999em;
@@ -5508,8 +5504,7 @@ blockquote {
   height: 24px; }
 
 .btn--google-plus__icono {
-  background-position-x: -100px;
-  background-position-y: -100px;
+  background-position: -100px -100px;
   background-repeat: no-repeat;
   background-image: url("../img/sprites/sprite1.svg");
   text-indent: -999em;
@@ -5735,8 +5730,7 @@ blockquote {
 .navbar-brand {
   padding: 0;
   margin: 10px;
-  background-position-x: -150px;
-  background-position-y: -0px;
+  background-position: -150px 0px;
   background-repeat: no-repeat;
   background-image: url("../img/sprites/sprite1.svg");
   text-indent: -999em;
@@ -5746,8 +5740,7 @@ blockquote {
   height: 50px; }
   @media (min-width: 768px) {
     .navbar-brand {
-      background-position-x: -0px;
-      background-position-y: -0px;
+      background-position: 0px 0px;
       background-repeat: no-repeat;
       background-image: url("../img/sprites/sprite1.svg");
       text-indent: -999em;
@@ -6055,8 +6048,7 @@ blockquote {
   display: inline-block; }
 
 .logo--sm {
-  background-position-x: -150px;
-  background-position-y: -150px;
+  background-position: -150px -150px;
   background-repeat: no-repeat;
   background-image: url("../img/sprites/sprite1.svg");
   text-indent: -999em;

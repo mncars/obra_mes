@@ -1,12 +1,11 @@
 /*------------------------------------*\
-	#MIXINS-SPRITES
+    #MIXINS-SPRITES
 \*------------------------------------*/
 
 
 @mixin spriteHelper($x, $y, $spriteX, $spriteY) {
-	background-position-x: -#{$x * $spriteX};
-	background-position-y: -#{$y * $spriteY};
-	background-repeat: no-repeat;
+    background-position: #{-($x * $spriteX)} #{-($y * $spriteY)};
+    background-repeat: no-repeat;
 }
 
 /**
@@ -14,12 +13,12 @@
  */
 
 @mixin sprite($image, $x, $y) {
-	@if $image == sprite1 {
-		$spriteX: 50px;
-		$spriteY: 50px;
-		@include spriteHelper($x, $y, $spriteX, $spriteY);
-		background-image: url("../img/sprites/#{$image}.svg");
-	}
+    @if $image == sprite1 {
+        $spriteX: 50px;
+        $spriteY: 50px;
+        @include spriteHelper($x, $y, $spriteX, $spriteY);
+        background-image: url("../img/sprites/#{$image}.svg");
+    }
 }
 
 /**
@@ -27,16 +26,16 @@
  */
 
 @mixin hideText{
-	text-indent: -999em;
-	letter-spacing: -999em;
-	overflow: hidden;
+    text-indent: -999em;
+    letter-spacing: -999em;
+    overflow: hidden;
 }
 
 @mixin spriteReplace ($image, $x, $y, $width, $height) {
-	@include sprite($image, $x, $y);
-	@include hideText;
-	width: $width;
-	height: $height;
+    @include sprite($image, $x, $y);
+    @include hideText;
+    width: $width;
+    height: $height;
 }
 
 /**
@@ -44,11 +43,11 @@
  */
 
 @mixin spriteInline($image, $x, $y, $width, $height) {
-	@include sprite($image, $x, $y);
-	display: inline-block;
-	content: "";
-	width: $width;
-	height: $height;
+    @include sprite($image, $x, $y);
+    display: inline-block;
+    content: "";
+    width: $width;
+    height: $height;
 }
 
 /**
@@ -56,11 +55,11 @@
  */
 
 @mixin spritePadded($image, $x, $y, $width, $height) {
-	@include sprite($image, $x, $y);
-	position: absolute;
-	content: "";
-	width: $width;
-	height: $height;
+    @include sprite($image, $x, $y);
+    position: absolute;
+    content: "";
+    width: $width;
+    height: $height;
 }
 
 /**
@@ -68,5 +67,5 @@
  */
 
 @mixin spritePNG($image) {
-	background-image: url("../img/sprites/#{$image}.png");
+    background-image: url("../img/sprites/#{$image}.png");
 }
